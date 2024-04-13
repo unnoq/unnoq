@@ -1,6 +1,7 @@
 ---
 import '@/styles/globals.css'
 import DefaultLayout from '../layouts/default-layout.astro'
+import Typewriter from '@/components/typewriter.astro'
 
 const works = [
   {
@@ -68,7 +69,12 @@ const links = [
 
     <div class="mt-8">
       <div>
-        <h1 class="tracking-wide">dinwwwh &middot; Do It Now, Win With Hustle</h1>
+        <h1 class="tracking-wide">
+          dinwwwh &middot; <Typewriter
+            id="the-meaning-of-dinwwwh"
+            words={['Định Lê', 'Do It Now, Win With Hustle']}
+          />
+        </h1>
       </div>
 
       <div class="mt-1">Open-source maintainer & Indie hacker 🚀</div>
