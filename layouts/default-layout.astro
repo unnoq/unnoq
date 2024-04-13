@@ -1,0 +1,43 @@
+---
+const title = 'dinwwwh'
+const description = '🚀 Open-source maintainer & Indie hacker'
+
+const ogImageUrl = new URL('og.png', Astro.url.origin)
+const ogImageAlt = 'dinwwwh - 🚀 Open-source maintainer & Indie hacker'
+const twitterSite = 'dinwwwh'
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+
+    <!-- Page Metadata -->
+    <link rel="canonical" href="https://astro.build/" />
+    <meta name="description" content={description} />
+
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://astro.build/" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={title} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:alt" content={ogImageAlt} />
+
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content={twitterSite} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
