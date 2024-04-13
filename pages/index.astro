@@ -1,7 +1,122 @@
 ---
+import '@/styles/globals.css'
 import DefaultLayout from '../layouts/default-layout.astro'
+
+const works = [
+  {
+    href: 'https://ui.dinwwwh.com',
+    title: 'DinUI beautiful react components',
+    status: 'Coming soon',
+  },
+]
+
+const highlights = [
+  {
+    name: 'Work',
+    items: [
+      {
+        href: 'https://ui.dinwwwh.com',
+        title: 'DinUI - beautiful react components',
+        status: 'Coming soon',
+      },
+      {
+        href: 'https://middleapi.com',
+        title: ' MiddleAPI - supercharge any APIs',
+        status: 'Coming soon',
+      },
+      {
+        href: 'https://noteask.com',
+        title: 'NoteAsk - your second brain',
+        status: 'Coming soon',
+      },
+    ],
+  },
+  {
+    name: 'Posts',
+    items: [
+      {
+        href: '#',
+        title: 'Coming soon',
+        status: 'Coming soon',
+      },
+    ],
+  },
+]
+
+const links = [
+  {
+    name: 'Email',
+    href: 'mailto:dinwwwh@gmail.com',
+  },
+  {
+    name: 'Twitter',
+    href: 'https://x.com/dinwwwh',
+  },
+  {
+    name: 'Github',
+    href: 'https://github.com/dinwwwh',
+  },
+]
 ---
 
 <DefaultLayout>
-  <h1 class="text-red-900">Astro</h1>
+  <div class="py-6">
+    <header class="flex items-center gap-2">
+      <img class="size-6 rounded-md" src="/d-avatar.png" alt="dinwwwh" />
+      <span class="tracking-wide"> dinwwwh </span>
+    </header>
+
+    <div class="mt-8">
+      <div>
+        <h1 class="tracking-wide">dinwwwh &middot; Do It Now, Win With Hustle</h1>
+      </div>
+
+      <div class="mt-1">Open-source maintainer & Indie hacker 🚀</div>
+    </div>
+
+    <div class="border-t border-gray-700 border-dashed my-12"></div>
+
+    <div class="space-y-6">
+      {
+        highlights.map((highlight) => (
+          <div>
+            <h2 id={highlight.name.toLowerCase()} class="scroll-m-20 text-gray-500">
+              <a href={`#${highlight.name.toLowerCase()}`}>{highlight.name}</a>
+            </h2>
+
+            <ul class="mt-3">
+              {highlight.items.map((item) => (
+                <li>
+                  <a
+                    class="group block -mx-3 p-3 pl-2.5 border-l-2 border-transparent hover:border-gray-500 hover:bg-gray-700/20 transition duration-300 ease-out"
+                    href={item.href}
+                  >
+                    <div class="group-hover:text-gray-200 transition">{item.title}</div>
+                    <div class="text-gray-500 mt-1 group-hover:text-gray-400/70 transition">
+                      {item.status}
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="border-t border-gray-700 border-dashed my-12"></div>
+
+    <div class="flex items-center gap-2 pb-8">
+      {
+        links.map((link, i) => (
+          <div>
+            <a href={link.href} class="hover:text-gray-200 transition">
+              {link.name}
+            </a>
+            {i === links.length - 1 ? null : <span>&middot;</span>}
+          </div>
+        ))
+      }
+    </div>
+  </div>
 </DefaultLayout>

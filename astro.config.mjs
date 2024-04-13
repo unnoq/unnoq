@@ -5,5 +5,9 @@ import { defineConfig } from 'astro/config'
 export default defineConfig({
   srcDir: '.',
   site: 'https://dinwwwh.com',
-  integrations: [tailwind()],
+  integrations: [
+    tailwind({
+      applyBaseStyles: false,
+    }),
+  ],
 })
