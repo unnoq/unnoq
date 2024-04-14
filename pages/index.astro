@@ -3,11 +3,26 @@ import '@/styles/globals.css'
 import DefaultLayout from '../layouts/default-layout.astro'
 import Typewriter from '@/components/typewriter.astro'
 
-const works = [
+const teaches = [
   {
-    href: 'https://ui.dinwwwh.com',
-    title: 'DinUI beautiful react components',
-    status: 'Coming soon',
+    href: 'https://www.typescriptlang.org/',
+    title: 'Typescript',
+  },
+  {
+    href: 'https://react.dev/',
+    title: 'React',
+  },
+  {
+    href: 'https://developers.cloudflare.com/workers/',
+    title: 'Workers',
+  },
+  {
+    href: 'https://supabase.com/',
+    title: 'Supabase',
+  },
+  {
+    href: 'https://laravel.com/',
+    title: 'Laravel',
   },
 ]
 
@@ -30,13 +45,18 @@ const highlights = [
         title: 'NoteAsk - your second brain',
         status: 'Coming soon',
       },
+      {
+        href: 'https://resolvex.ai',
+        title: 'ResolveX - AI chatbot for your websites',
+        status: 'Coming soon',
+      },
     ],
   },
   {
     name: 'Posts',
     items: [
       {
-        href: '#',
+        href: 'https://medium.com/@dinwwwh',
         title: 'Coming soon',
         status: 'Coming soon',
       },
@@ -77,7 +97,17 @@ const links = [
         </h1>
       </div>
 
-      <div class="mt-1">Open-source maintainer & Indie hacker 🚀</div>
+      <p class="mt-1">
+        Open-source maintainer & Indie hacker 🚀 Currently focusing on
+        {
+          teaches.map((t, i) => (
+            <a href={t.href} class="hover:text-gray-200 transition">
+              {i === teaches.length - 1 ? 'and' : ''}
+              {i === teaches.length - 1 ? `${t.title}.` : `${t.title},`}
+            </a>
+          ))
+        }
+      </p>
     </div>
 
     <div class="border-t border-gray-700 border-dashed my-12"></div>

@@ -11,7 +11,7 @@ const { id, words } = Astro.props
 
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
-<script define:vars={{ id, words }}>
+<script is:inline define:vars={{ id, words }}>
   window.addEventListener('load', () => {
     new Typewriter('#' + id, {
       strings: words,
