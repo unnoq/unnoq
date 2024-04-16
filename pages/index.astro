@@ -16,14 +16,6 @@ const teaches = [
     href: 'https://developers.cloudflare.com/workers/',
     title: 'Workers',
   },
-  {
-    href: 'https://supabase.com/',
-    title: 'Supabase',
-  },
-  {
-    href: 'https://laravel.com/',
-    title: 'Laravel',
-  },
 ]
 
 const highlights = [
@@ -92,13 +84,13 @@ const links = [
         <h1 class="tracking-wide">
           dinwwwh &middot; <Typewriter
             id="the-meaning-of-dinwwwh"
-            words={['Định Lê', 'Do It Now, Win With Hustle']}
+            words={['Định Lê', 'Do It Now, Win With Hustle.']}
           />
         </h1>
       </div>
 
       <p class="mt-1">
-        Open-source maintainer & Indie hacker 🚀 Currently focusing on
+        Open-source maintainer & Indie hacker 🚀 focuses on
         {
           teaches.map((t, i) => (
             <a href={t.href} class="hover:text-gray-200 transition">
@@ -112,7 +104,7 @@ const links = [
 
     <div class="border-t border-gray-700 border-dashed my-12"></div>
 
-    <div class="space-y-6">
+    <div class="space-y-7">
       {
         highlights.map((highlight) => (
           <div>
@@ -120,7 +112,7 @@ const links = [
               <a href={`#${highlight.name.toLowerCase()}`}>{highlight.name}</a>
             </h2>
 
-            <ul class="mt-3">
+            <ul class="mt-1.5">
               {highlight.items.map((item) => (
                 <li>
                   <a

@@ -1,6 +1,6 @@
 # Hi 👋! I'm dinwwwh
 
-**Open-source maintainer & Indie hacker** 🚀 Currently focusing on [Typescript](https://www.typescriptlang.org/), [React](https://react.dev/), [Workers](https://developers.cloudflare.com/workers/), [Supabase](https://supabase.com/), and [Laravel](https://laravel.com/).
+**Open-source maintainer & Indie hacker** 🚀 focuses on [Typescript](https://www.typescriptlang.org/), [React](https://react.dev/), and [Workers](https://developers.cloudflare.com/workers/).
 
 ## Work
 
