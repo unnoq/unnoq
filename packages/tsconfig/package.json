@@ -1,0 +1,30 @@
+{
+  "name": "@dinwwwh/tsconfig",
+  "version": "0.0.0",
+  "author": {
+    "name": "dinwwwh",
+    "email": "dinwwwh@gmail.com",
+    "url": "https://dinwwwh.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dinwwwh/dinwwwh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinwwwh/dinwwwh.git",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dinwwwh",
+    "tsconfig",
+    "typescript",
+    "config",
+    "tsconfig preset",
+    "tsconfig base",
+    "tsconfig react"
+  ],
+  "scripts": {
+  }
+}

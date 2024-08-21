@@ -1,0 +1,1 @@
+# `@dinwwwh/tsconfig`
