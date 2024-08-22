@@ -1,7 +1,7 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
-import dts from 'vite-plugin-dts'
 import tsconfigPaths from 'vite-tsconfig-paths'
+import { onSuccess } from 'vite-plugin-on-success'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,17 +12,12 @@ export default defineConfig({
     ssr: true, // Prevent bundle all dependencies (except linked dependencies, and above noExternal list) and make it usable in node.js
     target: 'es2022',
     lib: {
-      entry: [path.resolve(__dirname, './src/index.ts')],
+      entry: [path.resolve(__dirname, './src/main.ts')],
       formats: ['es'],
     },
   },
   plugins: [
     tsconfigPaths(),
-    dts({
-      compilerOptions: {
-        baseUrl: '.', // This will help dts resolve alias imports
-        types: ['vite/client'],
-      },
-    }),
+    onSuccess(),
   ],
 })
