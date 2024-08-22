@@ -23,6 +23,7 @@ export default defineConfig({
         baseUrl: '.', // This will help dts resolve alias imports
         types: ['vite/client'],
       },
+      exclude: ['**/*.test.*', '**/*.spec.*', 'test', '**/__tests__/**'],
     }),
   ],
 })
