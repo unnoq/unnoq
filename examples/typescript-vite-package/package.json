@@ -25,7 +25,8 @@
       "types": "./dist/src/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
-    }
+    },
+    "./*": "./dist/*"
   },
   "files": [
     "dist",

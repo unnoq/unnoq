@@ -5,7 +5,9 @@
     "paths": {
       "@todo/*": ["./src/*"]
     },
-    "types": ["vite/client", "node"]
+    "types": ["vite/client", "node"],
+    "declaration": false,
+    "declarationMap": false
   },
   "include": ["src"]
 }
