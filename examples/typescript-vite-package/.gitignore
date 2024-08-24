@@ -1,6 +1,7 @@
 # Hidden folders and files
 .*
 !.gitignore
+!.*.example
 
 # Common generated folders
 logs/
