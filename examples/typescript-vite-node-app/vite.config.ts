@@ -1,6 +1,7 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
+// @ts-expect-error vite-plugin-on-success does not have types
 import { onSuccess } from 'vite-plugin-on-success'
 
 // https://vitejs.dev/config/
