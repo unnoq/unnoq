@@ -1,13 +1,10 @@
 {
   "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
-    "composite": false,
     "paths": {
       "@todo/*": ["./src/*"]
     },
     "types": ["vite/client", "node"],
-    "declaration": false,
-    "declarationMap": false
   },
   "include": ["src"]
 }

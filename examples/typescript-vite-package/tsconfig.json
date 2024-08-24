@@ -1,5 +1,5 @@
 {
-  "extends": "@dinwwwh/tsconfig/base.json",
+  "extends": "@dinwwwh/tsconfig/base-lib.json",
   "compilerOptions": {
     "paths": {
       "@todo/*": ["./src/*"]

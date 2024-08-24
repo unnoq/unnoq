@@ -74,7 +74,7 @@ importers:
     devDependencies:
       '@dinwwwh/tsconfig':
         specifier: latest
-        version: 0.0.1
+        version: 0.0.3
       '@types/node':
         specifier: latest
         version: 22.5.0
@@ -95,7 +95,7 @@ importers:
     devDependencies:
       '@dinwwwh/tsconfig':
         specifier: latest
-        version: 0.0.1
+        version: 0.0.3
       typescript:
         specifier: latest
         version: 5.5.4
@@ -315,8 +315,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/parser@7.25.3':
-    resolution: {integrity: sha512-iLTJKDbJ4hMvFPgQwwsVoxtHyWpKKPBrxkANrSYewDPaPpT5py5yeVkgPIJ7XYXhndxJpaA3PyALSXQ7u8e/Dw==}
+  '@babel/parser@7.25.4':
+    resolution: {integrity: sha512-nq+eWrOgdtu3jG5Os4TQP3x3cLA8hR8TvJNjD8vnPa20WGycimcparWnLK4jJhElTK6SDyuJo1weMKO/5LpmLA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -352,8 +352,8 @@ packages:
     resolution: {integrity: sha512-+j7a5c253RfKh8iABBhywc8NSfP5LURe7Uh4qpsh6jc+aLJguvmIUBdjSdEMQv2bENrCR5MfRdjGo7vzS/ob7w==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.25.2':
-    resolution: {integrity: sha512-YTnYtra7W9e6/oAZEHj0bJehPRUlLH9/fbpT5LfB0NhQXyALCRkRs3zH9v07IYhkgpqX6Z78FnuccZr/l4Fs4Q==}
+  '@babel/types@7.25.4':
+    resolution: {integrity: sha512-zQ1ijeeCXVEh+aNL0RlmkPkG8HUiDcU2pzQQFjtbntgAczRASFzj4H+6+bV+dy1ntKR14I/DypeuRG1uma98iQ==}
     engines: {node: '>=6.9.0'}
 
   '@clack/core@0.3.4':
@@ -364,8 +364,8 @@ packages:
     bundledDependencies:
       - is-unicode-supported
 
-  '@dinwwwh/tsconfig@0.0.1':
-    resolution: {integrity: sha512-ntRmM4PHSiDFFZeD6r19gwAMyh6TzVg2RNQnLtbVTcHyz5efMLeakMPqRO115Y8QBk9ITmvd8Eqq3NtqGOWPhg==}
+  '@dinwwwh/tsconfig@0.0.3':
+    resolution: {integrity: sha512-8T3shexuhmuT642eVLgS0YSgy62r/iRwynVyoIEHnYThP4Cv98aVuyhvfolEIA8o9JAKVhWvz4R+zmSRaV4P7w==}
 
   '@emmetio/abbreviation@2.3.3':
     resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
@@ -4116,9 +4116,9 @@ snapshots:
     dependencies:
       '@babel/types': 7.24.0
 
-  '@babel/parser@7.25.3':
+  '@babel/parser@7.25.4':
     dependencies:
-      '@babel/types': 7.25.2
+      '@babel/types': 7.25.4
 
   '@babel/plugin-syntax-jsx@7.24.1(@babel/core@7.24.4)':
     dependencies:
@@ -4181,7 +4181,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  '@babel/types@7.25.2':
+  '@babel/types@7.25.4':
     dependencies:
       '@babel/helper-string-parser': 7.24.8
       '@babel/helper-validator-identifier': 7.24.7
@@ -4198,7 +4198,7 @@ snapshots:
       picocolors: 1.0.1
       sisteransi: 1.0.5
 
-  '@dinwwwh/tsconfig@0.0.1': {}
+  '@dinwwwh/tsconfig@0.0.3': {}
 
   '@emmetio/abbreviation@2.3.3':
     dependencies:
@@ -5023,7 +5023,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.38':
     dependencies:
-      '@babel/parser': 7.25.3
+      '@babel/parser': 7.25.4
       '@vue/shared': 3.4.38
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -5036,7 +5036,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.38':
     dependencies:
-      '@babel/parser': 7.25.3
+      '@babel/parser': 7.25.4
       '@vue/compiler-core': 3.4.38
       '@vue/compiler-dom': 3.4.38
       '@vue/compiler-ssr': 3.4.38

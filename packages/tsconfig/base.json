@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "incremental": true,
-    "composite": true,
     "target": "ES2022",
     "lib": ["ES2022"],
     "useDefineForClassFields": true,
@@ -17,8 +16,6 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "skipLibCheck": true
