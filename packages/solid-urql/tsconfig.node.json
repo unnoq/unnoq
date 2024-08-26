@@ -1,0 +1,23 @@
+{
+  "extends": "@dinwwwh/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@solid-urql/*": ["./src/*"]
+    },
+    "types": ["vite/client", "@types/node", "@testing-library/jest-dom"]
+  },
+  "include": [
+    "src/**/*.test.*",
+    "src/**/*.spec.*",
+    "src/**/__tests__",
+    "src/**/__mocks__",
+    "src/**/__snapshots__",
+
+    "playground",
+    "scripts",
+    "tests",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ]
+}

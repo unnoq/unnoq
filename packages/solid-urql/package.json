@@ -1,0 +1,63 @@
+{
+  "name": "@dinwwwh/solid-urql",
+  "type": "module",
+  "version": "0.0.0",
+  "author": {
+    "name": "dinwwwh",
+    "email": "dinwwwh@gmail.com",
+    "url": "https://dinwwwh.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dinwwwh/dinwwwh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinwwwh/dinwwwh.git",
+    "directory": "examples/typescript-vite-package"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dinwwwh"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "type:check": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "dependencies": {
+    "@urql/core": "^5.0.6",
+    "solid-js": "^1.8.21"
+  },
+  "devDependencies": {
+    "@dinwwwh/tsconfig": "latest",
+    "@solidjs/testing-library": "^0.8.9",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "latest",
+    "graphql-yoga": "^5.7.0",
+    "jsdom": "^25.0.0",
+    "typescript": "latest",
+    "urql": "^4.1.0",
+    "vite": "latest",
+    "vite-node": "latest",
+    "vite-plugin-dts": "latest",
+    "vite-plugin-solid": "^2.10.2",
+    "vite-tsconfig-paths": "latest",
+    "vitest": "^2.0.5"
+  }
+}

@@ -23,5 +23,10 @@
     "eslint-plugin-react-hooks": "5.1.0-rc-9c6806964f-20240703",
     "eslint-plugin-react-refresh": "^0.4.7",
     "turbo": "latest"
+  },
+  "pnpm": {
+    "overrides": {
+      "graphql": "^16.9.0"
+    }
   }
 }
