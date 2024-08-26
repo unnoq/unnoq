@@ -37,9 +37,7 @@
     "build": "vite build",
     "type:check": "tsc -b",
     "test": "vitest run",
-    "test:watch": "vitest watch",
-
-    "example": "vite-node scripts/example.ts"
+    "test:watch": "vitest watch"
   },
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",

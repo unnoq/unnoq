@@ -1,10 +1,7 @@
 {
   "references": [
-    { "path": "./tsconfig.playground.json" },
-    { "path": "./tsconfig.scripts.json" },
-    { "path": "./tsconfig.src.json" },
-    { "path": "./tsconfig.tests.json" },
-    { "path": "./tsconfig.vite.json" }
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
   ],
   "files": []
 }

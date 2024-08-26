@@ -1,1 +1,1 @@
-export * from '@TODO/example'
+/** dinwwwh */

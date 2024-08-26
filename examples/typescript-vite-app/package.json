@@ -36,9 +36,7 @@
     "dev": "VITE_ON_SUCCESS='node ./dist/main.js' vite build --watch",
     "build": "vite build",
     "preview": "node ./dist/main.js",
-    "type:check": "tsc -b",
-
-    "example": "vite-node scripts/example.ts"
+    "type:check": "tsc -b"
   },
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",

@@ -17,6 +17,7 @@ coverage/
 *.log.*
 *.tsbuildinfo
 vite.config.ts.timestamp-*
+vitest.config.ts.timestamp-*
 
 # Common manual ignore files
 *.local
