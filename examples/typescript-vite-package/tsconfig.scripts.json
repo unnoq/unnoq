@@ -1,0 +1,13 @@
+{
+  "extends": "@dinwwwh/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@TODO/*": ["./src/*"]
+    },
+    "types": ["vite/client", "@types/node"]
+  },
+  "include": [
+    "scripts"
+  ]
+}

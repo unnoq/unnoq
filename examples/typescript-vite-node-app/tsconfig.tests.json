@@ -14,8 +14,6 @@
     "src/**/__mocks__",
     "src/**/__snapshots__",
 
-    "tests",
-    "scripts",
-    "playground"
+    "tests"
   ]
 }
