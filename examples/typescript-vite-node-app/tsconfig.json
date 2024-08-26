@@ -1,16 +1,8 @@
 {
-  "extends": "@dinwwwh/tsconfig/base.json",
-  "compilerOptions": {
-    "paths": {
-      "@todo/*": ["./src/*"]
-    },
-    "types": ["vite/client", "node"]
-  },
-  "include": [
-    "src",
-    "tests",
-    "scripts",
-    "playground",
-    "vite.config.ts"
-  ]
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.vite.json" }
+  ],
+  "files": []
 }
