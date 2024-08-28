@@ -1,11 +1,11 @@
 {
-  "extends": "@dinwwwh/tsconfig/base-lib.json",
+  "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@solid-urql/*": ["./src/*"]
+      "@TODO/*": ["./src/*"]
     },
-    "types": ["vite/client"]
+    "types": ["vite/client", "@types/node"]
   },
   "include": [
     "src"
