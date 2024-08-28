@@ -1,14 +1,14 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
-// @ts-expect-error vite-plugin-on-success does not have types
+// @ts-expect-error vite-plugin-on-success is not typed
 import { onSuccess } from 'vite-plugin-on-success'
 import pkg from './package.json'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   ssr: {
-    noExternal: Object.keys(pkg.devDependencies), // Packages that should be bundled
+    noExternal: Object.keys(pkg.devDependencies), // Packages that should be bundled if used in source code
   },
   build: {
     ssr: true, // Prevent bundle all dependencies (except linked dependencies, and above noExternal list) and make it usable in node.js
