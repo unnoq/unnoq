@@ -2,9 +2,6 @@
   "extends": "@dinwwwh/tsconfig/base-lib.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@TODO/*": ["./src/*"]
-    },
     "types": ["vite/client"]
   },
   "include": [

@@ -2,7 +2,7 @@
   "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
+    "paths": { // PATHS must be the same as tsconfig.app.json paths, it will help you use app source code
       "@TODO/*": ["./src/*"]
     },
     "types": ["vite/client", "@types/node"]
@@ -18,7 +18,6 @@
     "scripts",
     "tests",
 
-    "vite.config.ts",
-    "vitest.config.ts"
+    "*" // ANY FILES IN ROOT DIRECTORY
   ]
 }

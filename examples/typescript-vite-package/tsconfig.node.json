@@ -2,11 +2,9 @@
   "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@TODO/*": ["./src/*"]
-    },
     "types": ["vite/client", "@types/node"]
   },
+  "references": [{ "path": "./tsconfig.app.json" }], // Help you can use app source code
   "include": [
     "src/**/*.test.*",
     "src/**/*.spec.*",
@@ -18,7 +16,6 @@
     "scripts",
     "tests",
 
-    "vite.config.ts",
-    "vitest.config.ts"
+    "*" // ANY FILES IN ROOT DIRECTORY
   ]
 }

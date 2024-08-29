@@ -14,19 +14,22 @@
     "url": "https://github.com/dinwwwh/dinwwwh.git",
     "directory": "examples/typescript-vite-app"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "dinwwwh"
   ],
+  "publishConfig": {
+    "access": "public",
+    "exports": {
+      ".": {
+        "types": "./dist/src/index.d.ts",
+        "import": "./dist/index.js",
+        "default": "./dist/index.js"
+      },
+      "./*": "./dist/*"
+    }
+  },
   "exports": {
-    ".": {
-      "types": "./dist/src/index.d.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
-    },
-    "./*": "./dist/*"
+    ".": "./src/index.ts"
   },
   "files": [
     "dist",
