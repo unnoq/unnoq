@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "incremental": true,
     "target": "ES2022",
     "lib": ["ES2022"],
     "useDefineForClassFields": true,
@@ -10,6 +9,7 @@
 
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
+    "jsx": "react-jsx",
 
     "strict": true,
     "outDir": "${configDir}/dist",
