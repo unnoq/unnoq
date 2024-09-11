@@ -3,9 +3,14 @@ import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 // @ts-expect-error vite-plugin-on-success is not typed
 import { onSuccess } from 'vite-plugin-on-success'
+import pkg from './package.json'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    __APP_NAME__: JSON.stringify(pkg.name),
+    __APP_VERSION__: JSON.stringify(pkg.version),
+  },
   ssr: {
     noExternal: [], // Packages that should be bundled if used in source code (e.g. packages export typescripts)
   },
