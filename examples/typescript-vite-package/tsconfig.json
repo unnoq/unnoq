@@ -1,7 +1,17 @@
 {
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+  "extends": "@dinwwwh/tsconfig/base-lib.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["vite/client"]
+  },
+  "include": [
+    "src"
   ],
-  "files": []
+  "exclude": [
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/__snapshots__/**"
+  ]
 }

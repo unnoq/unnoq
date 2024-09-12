@@ -1,7 +1,6 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
-// @ts-expect-error vite-plugin-on-success is not typed
 import { onSuccess } from 'vite-plugin-on-success'
 import pkg from './package.json'
 
