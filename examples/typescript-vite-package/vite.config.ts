@@ -18,6 +18,19 @@ export default defineConfig({
   },
   plugins: [
     tsconfigPaths(),
-    dts({ tsconfigPath: path.resolve(__dirname, './tsconfig.app.json') }),
+    dts({
+      tsconfigPath: path.resolve(__dirname, './tsconfig.app.json'),
+      compilerOptions: {
+        paths: {
+          /**
+           * Bellow paths work when you define baseUrl in typescript config by default
+           * vite-tsconfig-paths also support this,
+           * but vite-plugin-dts not, so we need explicitly define it here
+           */
+          'src': ['./src'],
+          'src/*': ['./src/*'],
+        },
+      },
+    }),
   ],
 })

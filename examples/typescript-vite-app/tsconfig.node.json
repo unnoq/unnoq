@@ -2,9 +2,6 @@
   "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": { // PATHS must be the same as tsconfig.app.json paths, it will help you use app source code
-      "@TODO/*": ["./src/*"]
-    },
     "types": ["vite/client", "@types/node"]
   },
   "include": [

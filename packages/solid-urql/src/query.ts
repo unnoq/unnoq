@@ -6,7 +6,7 @@ export function createQueryFactory(client: Client): CreateQuery {
   const createQuery: CreateQuery = (query, options) => {
     const { variables, ...rest } = options || {}
 
-    const createOperation = () => client.query(query, variables, rest)
+    const createOperation = () => client.query(query, variables as any, rest)
 
     const [data, { mutate, refetch }] = createResource(async () => {
       const result = await createOperation().toPromise()
