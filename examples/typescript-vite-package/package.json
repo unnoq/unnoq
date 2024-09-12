@@ -39,18 +39,14 @@
   "scripts": {
     "build": "vite build",
     "build:watch": "vite build --watch",
-    "type:check": "tsc -b",
-    "test": "vitest run",
-    "test:watch": "vitest watch"
+    "type:check": "tsc -b"
   },
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",
     "@types/node": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vite-node": "latest",
     "vite-plugin-dts": "latest",
-    "vite-tsconfig-paths": "latest",
-    "vitest": "latest"
+    "vite-tsconfig-paths": "latest"
   }
 }
