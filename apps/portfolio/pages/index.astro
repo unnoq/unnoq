@@ -1,5 +1,6 @@
 ---
 import 'styles/globals.css'
+
 import Typewriter from 'components/typewriter.astro'
 import DefaultLayout from '../layouts/default-layout.astro'
 
@@ -85,7 +86,7 @@ const links = [
           dinwwwh &middot; <Typewriter
             id="the-meaning-of-dinwwwh"
             words={['Định Lê', 'Do It Now, Win With Hustle.']}
-                           />
+          />
         </h1>
       </div>
 
@@ -106,14 +107,14 @@ const links = [
 
     <div class="space-y-7">
       {
-        highlights.map(highlight => (
+        highlights.map((highlight) => (
           <div>
             <h2 id={highlight.name.toLowerCase()} class="scroll-m-20 text-gray-500">
               <a href={`#${highlight.name.toLowerCase()}`}>{highlight.name}</a>
             </h2>
 
             <ul class="mt-1.5">
-              {highlight.items.map(item => (
+              {highlight.items.map((item) => (
                 <li>
                   <a
                     class="group block -mx-3 p-3 pl-2.5 border-l-2 border-transparent hover:border-gray-500 hover:bg-gray-700/20 transition duration-300 ease-out"
