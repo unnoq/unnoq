@@ -2,16 +2,25 @@
   "name": "@noeditor/repo",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.10.0",
+  "author": {
+    "name": "dinwwwh",
+    "email": "dinwwwh@gmail.com",
+    "url": "https://dinwwwh.com"
+  },
   "scripts": {
     "build": "pnpm run -r build",
     "preview": "pnpm run -r preview",
     "type:check": "pnpm run -r type:check",
     "test": "pnpm run -r test",
     "lint:check": "pnpm dlx oxlint --max-warnings=0 --ignore-pattern='*.astro'",
-    "lint:fix": "pnpm run lint:check --fix"
+    "lint:fix": "pnpm run lint:check --fix",
+    "sherif:check": "pnpm dlx sherif",
+    "sherif:fix": "pnpm run sherif:check --fix",
+    "knip:check": "pnpm dlx knip",
+    "knip:fix": "pnpm run knip:check --fix --allow-remove-files"
   },
   "devDependencies": {
     "prettier-plugin-astro": "^0.13.0"
-  }
+  },
+  "packageManager": "pnpm@9.10.0"
 }
