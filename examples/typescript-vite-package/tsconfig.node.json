@@ -1,0 +1,21 @@
+{
+  "extends": "@dinwwwh/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["vite/client", "@types/node"]
+  },
+  "references": [{ "path": "./tsconfig.app.json" }],
+  "include": [
+    "src/**/*.test.*",
+    "src/**/*.test-d.ts",
+    "src/**/__tests__",
+    "src/**/__mocks__",
+    "src/**/__snapshots__",
+
+    "playground",
+    "scripts",
+    "tests",
+
+    "*" // ANY FILES IN ROOT DIRECTORY
+  ]
+}
