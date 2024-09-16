@@ -25,12 +25,14 @@
         "import": "./dist/index.js",
         "default": "./dist/index.js"
       },
-      "./__DO_NOT_USE__/*": "./dist/*"
+      "./__internal__/*": {
+        "types": "./dist/src/*.d.ts"
+      }
     }
   },
   "exports": {
     ".": "./src/index.ts",
-    "./__DO_NOT_USE__/*": "./src/*"
+    "./__internal__/*": "./src/*.ts"
   },
   "files": [
     "dist",
