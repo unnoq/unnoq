@@ -1,6 +1,8 @@
 # Hidden folders and files
 .*
 !.gitignore
+!.npmrc
+!.prettierrc
 !.*.example
 !.vscode/
 
