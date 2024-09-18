@@ -25,14 +25,14 @@
         "import": "./dist/index.js",
         "default": "./dist/index.js"
       },
-      "./__internal__/*": {
+      "./🔒/*": {
         "types": "./dist/src/*.d.ts"
       }
     }
   },
   "exports": {
     ".": "./src/index.ts",
-    "./__internal__/*": "./src/*.ts"
+    "./🔒/*": "./src/*.ts"
   },
   "files": [
     "dist",
@@ -48,7 +48,6 @@
     "@types/node": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vite-plugin-dts": "latest",
-    "vite-tsconfig-paths": "latest"
+    "vite-plugin-dts": "latest"
   }
 }

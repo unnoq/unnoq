@@ -1,7 +1,6 @@
 {
   "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "types": ["vite/client", "@types/node"]
   },
   "references": [{ "path": "./tsconfig.app.json" }],
