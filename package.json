@@ -19,8 +19,5 @@
     "knip:check": "pnpm dlx knip",
     "knip:fix": "pnpm run knip:check --fix --allow-remove-files"
   },
-  "devDependencies": {
-    "prettier-plugin-astro": "^0.13.0"
-  },
   "packageManager": "pnpm@9.10.0"
 }

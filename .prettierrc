@@ -2,14 +2,5 @@
   "printWidth": 100,
   "semi": false,
   "singleQuote": true,
-  "quoteProps": "consistent",
-  "plugins": ["prettier-plugin-astro"],
-  "overrides": [
-    {
-      "files": "*.astro",
-      "options": {
-        "parser": "astro"
-      }
-    }
-  ]
+  "quoteProps": "consistent"
 }
