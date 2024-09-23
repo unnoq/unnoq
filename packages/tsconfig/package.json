@@ -1,6 +1,6 @@
 {
   "name": "@dinwwwh/tsconfig",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "dinwwwh",
     "email": "dinwwwh@gmail.com",
@@ -29,6 +29,5 @@
     "tsconfig node",
     "tsconfig lib"
   ],
-  "scripts": {
-  }
+  "scripts": {}
 }

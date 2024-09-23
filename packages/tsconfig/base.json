@@ -11,12 +11,12 @@
     "resolveJsonModule": true,
     "jsx": "react-jsx",
 
+    "noEmit": true,
     "strict": true,
     "outDir": "${configDir}/dist",
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "noImplicitOverride": true,
-    "sourceMap": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "skipLibCheck": true
