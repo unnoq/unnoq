@@ -22,34 +22,32 @@
     "exports": {
       ".": {
         "types": "./dist/src/index.d.ts",
-        "import": "./dist/index.js",
-        "default": "./dist/index.js"
+        "import": "./dist/src/index.js",
+        "default": "./dist/src/index.js"
       },
       "./🔒/*": {
-        "types": "./dist/src/*.d.ts",
-        "import": "./dist/*.js",
-        "default": "./dist/*.js"
+        "types": "./dist/src/*.d.ts"
       }
     }
   },
   "exports": {
     ".": "./src/index.ts",
-    "./🔒/*": "./src/*.ts"
+    "./🔒/*": {
+      "types": "./src/*.ts"
+    }
   },
   "files": [
     "dist",
     "src"
   ],
   "scripts": {
-    "build": "vite build",
-    "build:watch": "vite build --watch",
+    "build": "vite build && tsc -b",
     "type:check": "tsc -b"
   },
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",
     "@types/node": "latest",
     "typescript": "latest",
-    "vite": "latest",
-    "vite-plugin-dts": "latest"
+    "vite": "latest"
   }
 }

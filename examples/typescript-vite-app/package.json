@@ -35,7 +35,6 @@
     "@types/node": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vite-plugin-on-success": "latest",
-    "vite-tsconfig-paths": "latest"
+    "vite-plugin-on-success": "latest"
   }
 }
