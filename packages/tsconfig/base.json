@@ -13,7 +13,6 @@
 
     "noEmit": true,
     "strict": true,
-    "outDir": "${configDir}/dist",
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "noImplicitOverride": true,
