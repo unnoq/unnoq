@@ -5,6 +5,7 @@
     "composite": true,
     "noEmit": false,
     "declaration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "emitDeclarationOnly": true
   }
 }
