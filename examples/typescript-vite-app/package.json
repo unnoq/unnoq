@@ -30,6 +30,8 @@
     "preview": "node ./dist/main.js",
     "type:check": "tsc -b"
   },
+  "dependencies": {},
+  "peerDependencies": {},
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",
     "@types/node": "latest",

@@ -22,8 +22,8 @@
     "exports": {
       ".": {
         "types": "./dist/src/index.d.ts",
-        "import": "./dist/src/index.js",
-        "default": "./dist/src/index.js"
+        "import": "./dist/index.js",
+        "default": "./dist/index.js"
       },
       "./🔒/*": {
         "types": "./dist/src/*.d.ts"
@@ -44,6 +44,8 @@
     "build": "vite build && tsc -b",
     "type:check": "tsc -b"
   },
+  "dependencies": {},
+  "peerDependencies": {},
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",
     "@types/node": "latest",
