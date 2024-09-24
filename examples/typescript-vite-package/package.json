@@ -41,7 +41,7 @@
     "src"
   ],
   "scripts": {
-    "build": "vite build && tsc -b",
+    "build": "vite build && tsc -b --noCheck",
     "type:check": "tsc -b"
   },
   "dependencies": {},
