@@ -1,7 +1,7 @@
 {
   "extends": "@dinwwwh/tsconfig/base.json",
   "compilerOptions": {
-    "types": ["vite/client", "@types/node"]
+    "types": ["vite/client", "@types/node", "vitest/globals"]
   },
   "references": [{ "path": "./tsconfig.app.json" }],
   "include": [

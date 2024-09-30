@@ -28,15 +28,16 @@
     "dev": "VITE_ON_SUCCESS='node ./dist/main.js' vite build --watch",
     "build": "vite build",
     "preview": "node ./dist/main.js",
-    "type:check": "tsc -b"
+    "type:check": "tsc -b",
+    "test": "vitest run --globals",
+    "test:watch": "vitest watch --globals"
   },
-  "dependencies": {},
-  "peerDependencies": {},
   "devDependencies": {
     "@dinwwwh/tsconfig": "latest",
     "@types/node": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vite-plugin-on-success": "latest"
+    "vite-plugin-on-success": "latest",
+    "vitest": "latest"
   }
 }
