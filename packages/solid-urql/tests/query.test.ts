@@ -59,7 +59,9 @@ it('work with cache-and-network policy', async () => {
 
   const executedMs1 = data()?.data?.users[0].executedMs
 
-  const [data2] = createQuery(EXAMPLE2_QUERY, { requestPolicy: 'cache-and-network' })
+  const [data2] = createQuery(EXAMPLE2_QUERY, {
+    requestPolicy: 'cache-and-network',
+  })
   await vi.waitFor(() => expect(fetcher).toBeCalledTimes(2))
   expect(data2()?.data).toEqual(data()?.data)
 
@@ -81,7 +83,7 @@ it('work with cache-first policy', async () => {
   await vi.waitFor(() => expect(fetcher).toBeCalledTimes(1))
   expect(data2()?.data).toEqual(data()?.data)
 
-  await new Promise(resolve => setTimeout(resolve, 500))
+  await new Promise((resolve) => setTimeout(resolve, 500))
 
   expect(data2()?.data?.users[0].executedMs).toEqual(executedMs1)
 })
@@ -90,7 +92,7 @@ it('work with cache-only policy', async () => {
   const createQuery = createQueryFactory()
   createQuery(EXAMPLE2_QUERY, { requestPolicy: 'cache-only' })
   await vi.waitFor(() => expect(fetcher).toBeCalledTimes(0))
-  await new Promise(resolve => setTimeout(resolve, 500))
+  await new Promise((resolve) => setTimeout(resolve, 500))
   await vi.waitFor(() => expect(fetcher).toBeCalledTimes(0))
 })
 

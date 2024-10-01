@@ -14,16 +14,11 @@
     "url": "https://github.com/dinwwwh/dinwwwh.git",
     "directory": "examples/typescript-vite-app"
   },
-  "keywords": [
-    "dinwwwh"
-  ],
+  "keywords": ["dinwwwh"],
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist", "src"],
   "scripts": {
     "dev": "VITE_ON_SUCCESS='node ./dist/main.js' vite build --watch",
     "build": "vite build",

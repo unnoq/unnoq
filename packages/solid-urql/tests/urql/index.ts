@@ -1,10 +1,10 @@
+import { createQueryFactory as createQueryFactoryOriginal } from '@solid-urql/query'
 import { Client, cacheExchange, fetchExchange } from '@urql/core'
 import { yoga } from 'tests/graphql-server'
-import { createQueryFactory as createQueryFactoryOriginal } from '@solid-urql/query'
 import { vi } from 'vitest'
 
 export const fetcher = vi.fn(async (...args: Parameters<typeof fetch>) => {
-  await new Promise(resolve => setTimeout(resolve, 100))
+  await new Promise((resolve) => setTimeout(resolve, 100))
   const request = new Request(...args)
   return await yoga.fetch(request)
 })

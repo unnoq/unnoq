@@ -1,6 +1,6 @@
-import { defineConfig } from 'vitest/config'
-import tsconfigPaths from 'vite-tsconfig-paths'
 import solid from 'vite-plugin-solid'
+import tsconfigPaths from 'vite-tsconfig-paths'
+import { defineConfig } from 'vitest/config'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,8 +8,5 @@ export default defineConfig({
     conditions: ['development', 'browser'],
   },
 
-  plugins: [
-    tsconfigPaths(),
-    solid(),
-  ],
+  plugins: [tsconfigPaths(), solid()],
 })

@@ -12,12 +12,15 @@
     "preview": "pnpm run -r preview",
     "type:check": "pnpm run -r type:check",
     "test": "pnpm run -r test",
-    "lint:check": "pnpm dlx oxlint --max-warnings=0 --ignore-pattern='*.astro'",
-    "lint:fix": "pnpm run lint:check --fix",
+    "lint:check": "pnpm biome check --error-on-warnings",
+    "lint:fix": "pnpm biome check --error-on-warnings --write",
     "sherif:check": "pnpm dlx sherif",
     "sherif:fix": "pnpm run sherif:check --fix",
     "knip:check": "pnpm dlx knip",
     "knip:fix": "pnpm run knip:check --fix --allow-remove-files"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "latest"
   },
   "packageManager": "pnpm@9.10.0"
 }

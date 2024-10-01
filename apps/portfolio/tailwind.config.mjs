@@ -11,7 +11,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['JetBrains Mono Variable', ...defaultConfig.theme.fontFamily.mono],
+        mono: [
+          'JetBrains Mono Variable',
+          ...defaultConfig.theme.fontFamily.mono,
+        ],
       },
       colors: {
         gray: colors.neutral,

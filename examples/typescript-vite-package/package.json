@@ -14,9 +14,7 @@
     "url": "https://github.com/dinwwwh/dinwwwh.git",
     "directory": "examples/typescript-vite-package"
   },
-  "keywords": [
-    "dinwwwh"
-  ],
+  "keywords": ["dinwwwh"],
   "publishConfig": {
     "access": "public",
     "exports": {
@@ -36,10 +34,7 @@
       "types": "./src/*.ts"
     }
   },
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist", "src"],
   "scripts": {
     "build": "vite build && tsc -b --noCheck",
     "type:check": "tsc -b",
