@@ -21,8 +21,8 @@
   "files": ["dist", "src"],
   "bin": "./dist/main.js",
   "scripts": {
-    "dev": "pnpm run build --watch --onSuccess='node ./dist/main.js'",
-    "build": "tsup --entry.main=src/main.ts --clean --sourcemap --splitting --minify --format=esm",
+    "dev": "UNPLUGIN_ON_SUCCESS='node ./dist/main.js' vite build --watch",
+    "build": "vite build",
     "preview": "node ./dist/main.js",
     "type:check": "tsc -b"
   },

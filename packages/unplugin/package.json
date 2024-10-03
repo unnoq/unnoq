@@ -1,7 +1,8 @@
 {
-  "name": "@dinwwwh/typescript-vite-package",
+  "name": "@dinwwwh/unplugin",
   "type": "module",
   "version": "0.0.0",
+  "description": "Utility for bundlers",
   "author": {
     "name": "dinwwwh",
     "email": "dinwwwh@gmail.com",
@@ -12,31 +13,29 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dinwwwh/dinwwwh.git",
-    "directory": "examples/typescript-vite-package"
+    "directory": "packages/unplugin"
   },
-  "keywords": ["dinwwwh"],
+  "keywords": ["dinwwwh", "dinwwwh-unplugin", "unplugin"],
   "publishConfig": {
-    "access": "public",
-    "exports": {
-      ".": {
-        "types": "./dist/src/index.d.ts",
-        "import": "./dist/index.js",
-        "default": "./dist/index.js"
-      },
-      "./🔒/*": {
-        "types": "./dist/src/*.d.ts"
-      }
-    }
+    "access": "public"
   },
   "exports": {
-    ".": "./src/index.ts",
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
     "./🔒/*": {
-      "types": "./src/*.ts"
+      "types": "./dist/src/*.d.ts"
     }
   },
   "files": ["dist", "src"],
   "scripts": {
     "build": "UNPLUGIN_ON_SUCCESS='tsc -b --noCheck' vite build",
     "type:check": "tsc -b"
+  },
+  "dependencies": {
+    "tree-kill": "^1.2.2",
+    "unplugin": "^1.14.1"
   }
 }

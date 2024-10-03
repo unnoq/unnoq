@@ -24,11 +24,12 @@
   },
   "devDependencies": {
     "@biomejs/biome": "latest",
-    "@types/node": "^22.7.4",
+    "@dinwwwh/unplugin": "latest",
+    "@types/node": "latest",
     "@vitest/coverage-v8": "latest",
     "@vitest/ui": "latest",
-    "tsup": "latest",
     "typescript": "latest",
+    "vite": "latest",
     "vitest": "latest"
   },
   "packageManager": "pnpm@9.10.0"
