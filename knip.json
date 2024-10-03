@@ -1,8 +1,4 @@
 {
   "$schema": "https://unpkg.com/knip@latest/schema.json",
-  "workspaces": {
-    "*": {
-      "entry": ["{src,playground}/{main,index}.{ts,js}", "scripts/*.ts"]
-    }
-  }
+  "ignore": ["*/*/*.ts"]
 }

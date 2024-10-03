@@ -19,24 +19,14 @@
     "access": "public"
   },
   "files": ["dist", "src"],
+  "bin": "./dist/main.js",
   "scripts": {
-    "dev": "VITE_ON_SUCCESS='node ./dist/main.js' vite build --watch",
-    "build": "vite build",
+    "dev": "pnpm run build --watch --onSuccess='node ./dist/main.js'",
+    "build": "tsup --entry.main=src/main.ts --clean --sourcemap --splitting --minify --format=esm",
     "preview": "node ./dist/main.js",
-    "type:check": "tsc -b",
-    "test": "vitest run --globals",
-    "test:watch": "vitest watch --globals",
-    "test:coverage": "vitest run --globals --coverage",
-    "test:ui": "vitest --globals --coverage --ui"
+    "type:check": "tsc -b"
   },
   "devDependencies": {
-    "@dinwwwh/tsconfig": "latest",
-    "@types/node": "latest",
-    "@vitest/coverage-v8": "latest",
-    "@vitest/ui": "latest",
-    "typescript": "latest",
-    "vite": "latest",
-    "vite-plugin-on-success": "latest",
-    "vitest": "latest"
+    "@types/node": "latest"
   }
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /** dinwwwh */
 
 import { createServer } from 'node:http'

@@ -1,7 +1,15 @@
 {
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
-  "files": []
+  "extends": "../../tsconfig.lib.json",
+  "compilerOptions": {
+    "types": []
+  },
+  "references": [],
+  "include": ["src"],
+  "exclude": [
+    "**/*.test.*",
+    "**/*.test-d.ts",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/__snapshots__/**"
+  ]
 }
