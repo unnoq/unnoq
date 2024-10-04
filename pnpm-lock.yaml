@@ -13,7 +13,7 @@ importers:
         version: 1.9.3
       '@dinwwwh/unplugin':
         specifier: latest
-        version: 0.0.0
+        version: 0.0.1
       '@types/node':
         specifier: latest
         version: 22.7.4
@@ -304,8 +304,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@dinwwwh/unplugin@0.0.0':
-    resolution: {integrity: sha512-mCcNqgEWAF2LjP/iio8CAr3xVFeM7zk/tGkgBWz3ewuwSgX1RJTZ2uIdu5cdq+LcgK7t/D/QG6ohLDsdXiPwxw==}
+  '@dinwwwh/unplugin@0.0.1':
+    resolution: {integrity: sha512-EbS9lVJmdaNphzyiNnuHFKpUs0+oQui106Or7TqKAHA6OiehaSNf1pzVFJAbJ3/P2MInpOK7jLEoddJrgmgK3Q==}
 
   '@emmetio/abbreviation@2.3.3':
     resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
@@ -3124,7 +3124,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.3':
     optional: true
 
-  '@dinwwwh/unplugin@0.0.0':
+  '@dinwwwh/unplugin@0.0.1':
     dependencies:
       tree-kill: 1.2.2
       unplugin: 1.14.1

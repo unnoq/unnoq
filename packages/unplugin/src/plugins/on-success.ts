@@ -10,16 +10,22 @@ export function onSuccessFactory(options?: OnSuccessOptions): UnpluginOptions {
   const onSuccessCommand = options?.onSuccess ?? process.env.UNPLUGIN_ON_SUCCESS
 
   let onSuccessProcess: ChildProcess | undefined
+  let onSuccessKillPromise: Promise<void> | undefined
 
   return {
     name: 'unplugin-on-success',
     async buildStart() {
       if (!onSuccessProcess?.pid) return
-      await killProcess(onSuccessProcess.pid)
-      onSuccessProcess = undefined
+
+      onSuccessKillPromise = killProcess(onSuccessProcess.pid).then(() => {
+        onSuccessProcess = undefined
+      })
     },
     async writeBundle() {
       if (!onSuccessCommand) return
+
+      await onSuccessKillPromise
+
       onSuccessProcess = spawn(onSuccessCommand, {
         shell: true,
         stdio: 'inherit',
@@ -27,7 +33,7 @@ export function onSuccessFactory(options?: OnSuccessOptions): UnpluginOptions {
 
       onSuccessProcess.on('exit', (code) => {
         if (code && code !== 0) {
-          process.exit(code)
+          process.exitCode = code
         }
       })
     },
