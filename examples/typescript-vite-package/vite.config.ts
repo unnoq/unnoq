@@ -1,10 +1,10 @@
-import unplugin from '@dinwwwh/unplugin'
+import unplugin, { loadExternal } from '@dinwwwh/unplugin'
 import { defineConfig } from 'vite'
-import pkg from './package.json'
 
 export default defineConfig({
   ssr: {
-    noExternal: Object.keys((pkg as any).devDependencies ?? {}),
+    noExternal: true,
+    external: loadExternal('./package.json'),
   },
   build: {
     ssr: true,

@@ -42,6 +42,22 @@ Or you can set the `UNPLUGIN_ON_SUCCESS` environment variable to run a command a
 UNPLUGIN_ON_SUCCESS='tsc -b --noCheck' vite build
 ```
 
+### `loadExternal`
+
+This will load all packages in `dependencies`, `peerDependencies`, `optionalDependencies` (linked dependencies will recursively load). And smart decide whether to include it in the build or not.
+
+```ts
+import { defineConfig } from 'vite'
+import { loadExternal } from '@dinwwwh/unplugin'
+
+export default defineConfig({
+  ssr: {
+    noExternal: true,
+    external: loadExternal('./package.json'),
+  },
+})
+```
+
 ## License 
 
 MIT

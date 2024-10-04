@@ -10,3 +10,5 @@ export const unplugin = createUnplugin((options?: Options) => {
 })
 
 export default unplugin
+
+export * from './utils/load-external'

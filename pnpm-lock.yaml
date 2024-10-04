@@ -13,7 +13,7 @@ importers:
         version: 1.9.3
       '@dinwwwh/unplugin':
         specifier: latest
-        version: 0.0.1
+        version: 0.0.2
       '@types/node':
         specifier: latest
         version: 22.7.4
@@ -304,8 +304,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@dinwwwh/unplugin@0.0.1':
-    resolution: {integrity: sha512-EbS9lVJmdaNphzyiNnuHFKpUs0+oQui106Or7TqKAHA6OiehaSNf1pzVFJAbJ3/P2MInpOK7jLEoddJrgmgK3Q==}
+  '@dinwwwh/unplugin@0.0.2':
+    resolution: {integrity: sha512-Xo9drZ8RPSzvfyHAp9X3lf8E1TT7k+IPhvfR2N+zVfCykv1XO6ASW0UPtxN7/LIXquF8fReJoCN0uglgG2ws7g==}
 
   '@emmetio/abbreviation@2.3.3':
     resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
@@ -2828,8 +2828,8 @@ packages:
     peerDependencies:
       zod: ^3.22.4
 
-  zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -2917,7 +2917,7 @@ snapshots:
     dependencies:
       sitemap: 7.1.1
       stream-replace-string: 2.0.0
-      zod: 3.22.4
+      zod: 3.23.8
 
   '@astrojs/tailwind@5.1.0(astro@4.6.1(@types/node@22.7.4)(typescript@5.6.2))(tailwindcss@3.4.3)':
     dependencies:
@@ -3124,7 +3124,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.3':
     optional: true
 
-  '@dinwwwh/unplugin@0.0.1':
+  '@dinwwwh/unplugin@0.0.2':
     dependencies:
       tree-kill: 1.2.2
       unplugin: 1.14.1
@@ -3615,7 +3615,7 @@ snapshots:
   astro-robots-txt@1.0.0:
     dependencies:
       valid-filename: 4.0.0
-      zod: 3.22.4
+      zod: 3.23.8
 
   astro@4.6.1(@types/node@22.7.4)(typescript@5.6.2):
     dependencies:
@@ -3679,8 +3679,8 @@ snapshots:
       vitefu: 0.2.5(vite@5.4.8(@types/node@22.7.4))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
-      zod: 3.22.4
-      zod-to-json-schema: 3.22.5(zod@3.22.4)
+      zod: 3.23.8
+      zod-to-json-schema: 3.22.5(zod@3.23.8)
     optionalDependencies:
       sharp: 0.32.6
     transitivePeerDependencies:
@@ -5983,10 +5983,10 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  zod-to-json-schema@3.22.5(zod@3.22.4):
+  zod-to-json-schema@3.22.5(zod@3.23.8):
     dependencies:
-      zod: 3.22.4
+      zod: 3.23.8
 
-  zod@3.22.4: {}
+  zod@3.23.8: {}
 
   zwitch@2.0.4: {}
