@@ -3,12 +3,14 @@
 import type * as A from './arktype'
 import type * as T from './typebox'
 import type * as V from './valibot'
+import type * as VV from './valita'
 import type * as Z from './zod'
 
 function expectZod(data: Z.SESEvent) {}
 function expectValibot(data: V.SESEvent) {}
 function expectTypebox(data: T.SESEvent) {}
 function expectArktype(data: A.SESEventType) {}
+function expectValita(data: VV.SESEvent) {}
 
 const event = {
   eventType: 'Bounce',
@@ -75,5 +77,6 @@ const event = {
 
 expectTypebox({} as any)
 expectZod({} as any)
+expectValita({} as any)
 expectArktype({} as any)
 expectValibot({} as any)

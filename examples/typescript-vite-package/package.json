@@ -45,6 +45,7 @@
     "type:check": "tsc -b"
   },
   "dependencies": {
+    "@badrap/valita": "^0.3.9",
     "@sinclair/typebox": "^0.33.13",
     "arktype": "2.0.0-rc.14",
     "valibot": "1.0.0-beta.0",

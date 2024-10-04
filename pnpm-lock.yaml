@@ -75,6 +75,9 @@ importers:
 
   examples/typescript-vite-package:
     dependencies:
+      '@badrap/valita':
+        specifier: ^0.3.9
+        version: 0.3.9
       '@sinclair/typebox':
         specifier: ^0.33.13
         version: 0.33.13
@@ -266,6 +269,10 @@ packages:
   '@babel/types@7.25.6':
     resolution: {integrity: sha512-/l42B1qxpG6RdfYf343Uw1vmDjeNhneUXtzhojE7pDgfpEypmRhI6j1kr17XCVv4Cgl9HdAiQY2x0GwKm7rWCw==}
     engines: {node: '>=6.9.0'}
+
+  '@badrap/valita@0.3.9':
+    resolution: {integrity: sha512-keFt5iCwI6H5lbvhg2ZJCWa1xRffdpk6/LHCaayubaRM2zhnRIIBE1d+2NEzXLSk4Fe/aklGNXVPt7hNkvBH6g==}
+    engines: {node: '>= 16'}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -3125,6 +3132,8 @@ snapshots:
       '@babel/helper-string-parser': 7.24.8
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
+
+  '@badrap/valita@0.3.9': {}
 
   '@bcoe/v8-coverage@0.2.3': {}
 
