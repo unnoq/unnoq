@@ -14,7 +14,9 @@
     "url": "https://github.com/dinwwwh/dinwwwh.git",
     "directory": "examples/typescript-vite-package"
   },
-  "keywords": ["dinwwwh"],
+  "keywords": [
+    "dinwwwh"
+  ],
   "publishConfig": {
     "access": "public",
     "exports": {
@@ -34,9 +36,18 @@
       "types": "./src/*.ts"
     }
   },
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "UNPLUGIN_ON_SUCCESS='tsc -b --noCheck' vite build",
     "type:check": "tsc -b"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.33.13",
+    "arktype": "2.0.0-rc.14",
+    "valibot": "1.0.0-beta.0",
+    "zod": "^3.23.8"
   }
 }
