@@ -21,7 +21,11 @@
     "rules": {
       "recommended": true,
       "suspicious": {
-        "noExplicitAny": "off"
+        "noExplicitAny": "off",
+        "noConsole": "warn"
+      },
+      "correctness": {
+        "noUnusedImports": "warn"
       }
     }
   },
