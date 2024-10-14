@@ -4,6 +4,7 @@
 
 ## Work
 
+- [oRPC](https://github.com/dinwwwh/orpc) - OpenAPI + RPC + TypeScript + Best ever DX (soon)
 - [DinUI](https://ui.dinwwwh.com/) - beautiful react components (soon)
 - [MiddleAPI](https://middleapi.com/) - supercharge your APIs (soon)
 - [NoteAsk](https://noteask.com/) - your second brain (soon)

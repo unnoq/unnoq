@@ -1,8 +1,8 @@
 ---
-import 'styles/globals.css'
+import 'styles/globals.css';
 
-import Typewriter from 'components/typewriter.astro'
-import DefaultLayout from '../layouts/default-layout.astro'
+import Typewriter from 'components/typewriter.astro';
+import DefaultLayout from '../layouts/default-layout.astro';
 
 const teaches = [
   {
@@ -17,12 +17,17 @@ const teaches = [
     href: 'https://developers.cloudflare.com/workers/',
     title: 'Workers',
   },
-]
+];
 
 const highlights = [
   {
     name: 'Work',
     items: [
+      {
+        href: 'https://github.com/dinwwwh/orpc',
+        title: 'oRPC - OpenAPI + RPC + TypeScript + Best ever DX',
+        status: 'Coming soon',
+      },
       {
         href: 'https://ui.dinwwwh.com',
         title: 'DinUI - beautiful react components',
@@ -55,7 +60,7 @@ const highlights = [
       },
     ],
   },
-]
+];
 
 const links = [
   {
@@ -70,7 +75,7 @@ const links = [
     name: 'Github',
     href: 'https://github.com/dinwwwh',
   },
-]
+];
 ---
 
 <DefaultLayout>
@@ -109,7 +114,10 @@ const links = [
       {
         highlights.map((highlight) => (
           <div>
-            <h2 id={highlight.name.toLowerCase()} class="scroll-m-20 text-gray-500">
+            <h2
+              id={highlight.name.toLowerCase()}
+              class="scroll-m-20 text-gray-500"
+            >
               <a href={`#${highlight.name.toLowerCase()}`}>{highlight.name}</a>
             </h2>
 
@@ -120,7 +128,9 @@ const links = [
                     class="group block -mx-3 p-3 pl-2.5 border-l-2 border-transparent hover:border-gray-500 hover:bg-gray-700/20 transition duration-300 ease-out"
                     href={item.href}
                   >
-                    <div class="group-hover:text-gray-200 transition">{item.title}</div>
+                    <div class="group-hover:text-gray-200 transition">
+                      {item.title}
+                    </div>
                     <div class="text-gray-500 mt-1 group-hover:text-gray-400/70 transition">
                       {item.status}
                     </div>
