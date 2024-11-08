@@ -1,22 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022"],
-    "useDefineForClassFields": true,
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "lib": ["ESNext"],
     "moduleDetection": "force",
-    "module": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
 
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "jsx": "react-jsx",
 
-    "noEmit": true,
     "strict": true,
-    "outDir": "${configDir}/dist",
-    "noUncheckedIndexedAccess": true,
-    "noUncheckedSideEffectImports": true,
     "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "outDir": "${configDir}/dist",
+    "noUncheckedSideEffectImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "skipLibCheck": true

@@ -1,7 +1,7 @@
 /** dinwwwh */
 
 import { createUnplugin } from 'unplugin'
-import { type OnSuccessOptions, onSuccessFactory } from './plugins/on-success'
+import { onSuccessFactory, type OnSuccessOptions } from './plugins/on-success'
 
 export type Options = OnSuccessOptions
 

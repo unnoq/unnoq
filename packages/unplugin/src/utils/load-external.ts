@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-type Dependency = {
+interface Dependency {
   name: string
   version: string
   type: 'dependencies' | 'peerDependencies' | 'optionalDependencies'
@@ -59,7 +59,7 @@ function loadDependenciesRecursively(pkgPath: string, dep = 0): Dependency[] {
       })),
     )
 
-  const linkedDependencies = packages.filter((pkg) => isLinkedDependency(pkg))
+  const linkedDependencies = packages.filter(pkg => isLinkedDependency(pkg))
 
   for (const pkg of linkedDependencies) {
     const linkPkgPath = path.resolve(
@@ -76,7 +76,7 @@ function loadDependenciesRecursively(pkgPath: string, dep = 0): Dependency[] {
     }
 
     if (
-      packages.find((p) => p.name === pkg.name && p.type === 'dependencies')
+      packages.find(p => p.name === pkg.name && p.type === 'dependencies')
     ) {
       return false
     }
@@ -86,7 +86,7 @@ function loadDependenciesRecursively(pkgPath: string, dep = 0): Dependency[] {
 }
 
 function isLinkedDependency(pkg: Dependency): boolean {
-  return ['workspace:', 'file:'].some((prefix) =>
+  return ['workspace:', 'file:'].some(prefix =>
     pkg.version.startsWith(prefix),
   )
 }

@@ -1,8 +1,8 @@
 ---
-import 'styles/globals.css';
+import 'styles/globals.css'
 
-import Typewriter from 'components/typewriter.astro';
-import DefaultLayout from '../layouts/default-layout.astro';
+import Typewriter from 'components/typewriter.astro'
+import DefaultLayout from '../layouts/default-layout.astro'
 
 const teaches = [
   {
@@ -17,7 +17,7 @@ const teaches = [
     href: 'https://developers.cloudflare.com/workers/',
     title: 'Workers',
   },
-];
+]
 
 const highlights = [
   {
@@ -60,7 +60,7 @@ const highlights = [
       },
     ],
   },
-];
+]
 
 const links = [
   {
@@ -75,7 +75,7 @@ const links = [
     name: 'Github',
     href: 'https://github.com/dinwwwh',
   },
-];
+]
 ---
 
 <DefaultLayout>
@@ -88,10 +88,7 @@ const links = [
     <div class="mt-8">
       <div>
         <h1 class="tracking-wide">
-          dinwwwh &middot; <Typewriter
-            id="the-meaning-of-dinwwwh"
-            words={['Định Lê', 'Do It Now, Win With Hustle.']}
-          />
+          dinwwwh &middot; <Typewriter id="the-meaning-of-dinwwwh" words={['Định Lê', 'Do It Now, Win With Hustle.']} />
         </h1>
       </div>
 
@@ -114,10 +111,7 @@ const links = [
       {
         highlights.map((highlight) => (
           <div>
-            <h2
-              id={highlight.name.toLowerCase()}
-              class="scroll-m-20 text-gray-500"
-            >
+            <h2 id={highlight.name.toLowerCase()} class="scroll-m-20 text-gray-500">
               <a href={`#${highlight.name.toLowerCase()}`}>{highlight.name}</a>
             </h2>
 
@@ -128,12 +122,8 @@ const links = [
                     class="group block -mx-3 p-3 pl-2.5 border-l-2 border-transparent hover:border-gray-500 hover:bg-gray-700/20 transition duration-300 ease-out"
                     href={item.href}
                   >
-                    <div class="group-hover:text-gray-200 transition">
-                      {item.title}
-                    </div>
-                    <div class="text-gray-500 mt-1 group-hover:text-gray-400/70 transition">
-                      {item.status}
-                    </div>
+                    <div class="group-hover:text-gray-200 transition">{item.title}</div>
+                    <div class="text-gray-500 mt-1 group-hover:text-gray-400/70 transition">{item.status}</div>
                   </a>
                 </li>
               ))}

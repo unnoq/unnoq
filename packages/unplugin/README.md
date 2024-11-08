@@ -11,8 +11,8 @@ pnpm i @dinwwwh/unplugin
 ## Usage
 
 ```ts
-import { defineConfig } from 'vite'
 import unplugin from '@dinwwwh/unplugin'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [unplugin.vite()],
@@ -28,8 +28,8 @@ Besides being used for vite it is also used for all bundlers that [unplugin](htt
 This plugin will run a command after the build is complete. This is useful for running scripts that need to be run after the build is complete.
 
 ```ts
-import { defineConfig } from 'vite'
 import unplugin from '@dinwwwh/unplugin'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [unplugin.vite({ onSuccess: 'tsc -b --noCheck' })],
@@ -47,8 +47,8 @@ UNPLUGIN_ON_SUCCESS='tsc -b --noCheck' vite build
 This will load all packages in `dependencies`, `peerDependencies`, `optionalDependencies` (linked dependencies will recursively load). And smart decide whether to include it in the build or not.
 
 ```ts
-import { defineConfig } from 'vite'
 import { loadExternal } from '@dinwwwh/unplugin'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   ssr: {
@@ -58,6 +58,6 @@ export default defineConfig({
 })
 ```
 
-## License 
+## License
 
 MIT

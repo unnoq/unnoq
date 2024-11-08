@@ -32,7 +32,7 @@
   "files": ["dist", "src"],
   "scripts": {
     "build": "UNPLUGIN_ON_SUCCESS='tsc -b --noCheck' vite build",
-    "type:check": "tsc -b"
+    "check": "tsc -b"
   },
   "dependencies": {
     "tree-kill": "^1.2.2",

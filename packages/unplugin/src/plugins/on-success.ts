@@ -1,5 +1,6 @@
-import { type ChildProcess, spawn } from 'node:child_process'
 import type { UnpluginOptions } from 'unplugin'
+import { type ChildProcess, spawn } from 'node:child_process'
+import process from 'node:process'
 import { killProcess } from '../utils'
 
 export interface OnSuccessOptions {
@@ -15,14 +16,16 @@ export function onSuccessFactory(options?: OnSuccessOptions): UnpluginOptions {
   return {
     name: 'unplugin-on-success',
     async buildStart() {
-      if (!onSuccessProcess?.pid) return
+      if (!onSuccessProcess?.pid)
+        return
 
       onSuccessKillPromise = killProcess(onSuccessProcess.pid).then(() => {
         onSuccessProcess = undefined
       })
     },
     async writeBundle() {
-      if (!onSuccessCommand) return
+      if (!onSuccessCommand)
+        return
 
       await onSuccessKillPromise
 

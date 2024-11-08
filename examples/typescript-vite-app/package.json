@@ -18,13 +18,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["dist", "src"],
   "bin": "./dist/main.js",
+  "files": ["dist", "src"],
   "scripts": {
     "dev": "UNPLUGIN_ON_SUCCESS='node ./dist/main.js' vite build --watch",
     "build": "vite build",
     "preview": "node ./dist/main.js",
-    "type:check": "tsc -b"
+    "check": "tsc -b"
   },
   "devDependencies": {
     "@types/node": "latest"
