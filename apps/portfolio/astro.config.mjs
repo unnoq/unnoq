@@ -6,7 +6,7 @@ import robotsTxt from 'astro-robots-txt'
 // https://astro.build/config
 export default defineConfig({
   srcDir: '.',
-  site: 'https://dinwwwh.com',
+  site: 'https://unnoq.com',
   integrations: [
     tailwind({
       applyBaseStyles: false,

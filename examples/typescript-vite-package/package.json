@@ -1,20 +1,20 @@
 {
-  "name": "@dinwwwh/typescript-vite-package",
+  "name": "@unnoq/typescript-vite-package",
   "type": "module",
   "version": "0.0.0",
   "author": {
-    "name": "dinwwwh",
-    "email": "dinwwwh@gmail.com",
-    "url": "https://dinwwwh.com"
+    "name": "unnoq",
+    "email": "contact@unnoq.com",
+    "url": "https://unnoq.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/dinwwwh/dinwwwh",
+  "homepage": "https://github.com/unnoq/unnoq",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dinwwwh/dinwwwh.git",
+    "url": "https://github.com/unnoq/unnoq.git",
     "directory": "examples/typescript-vite-package"
   },
-  "keywords": ["dinwwwh"],
+  "keywords": ["unnoq"],
   "publishConfig": {
     "access": "public",
     "exports": {

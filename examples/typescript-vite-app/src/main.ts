@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-/** dinwwwh */
+/** unnoq */
 
 import { createServer } from 'node:http'
 import process from 'node:process'

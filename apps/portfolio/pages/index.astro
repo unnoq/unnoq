@@ -24,14 +24,14 @@ const highlights = [
     name: 'Work',
     items: [
       {
-        href: 'https://github.com/dinwwwh/orpc',
-        title: 'oRPC - OpenAPI + RPC + TypeScript + Best ever DX',
-        status: 'Coming soon',
+        href: 'https://orpc.unnoq.com',
+        title: 'End-to-end typesafe APIs builder',
+        status: 'Beta',
       },
       {
-        href: 'https://ui.dinwwwh.com',
-        title: 'DinUI - beautiful react components',
-        status: 'Open for naughty',
+        href: 'https://ui.unnoq.com',
+        title: 'unnoq/ui - beautiful react components',
+        status: 'Coming soon',
       },
       {
         href: 'https://middleapi.com',
@@ -54,7 +54,7 @@ const highlights = [
     name: 'Posts',
     items: [
       {
-        href: 'https://medium.com/@dinwwwh',
+        href: 'https://medium.com/@unnoq',
         title: 'Coming soon',
         status: 'Coming soon',
       },
@@ -65,35 +65,28 @@ const highlights = [
 const links = [
   {
     name: 'Email',
-    href: 'mailto:dinwwwh@gmail.com',
+    href: 'mailto:contact@unnoq.com',
   },
   {
     name: 'Twitter',
-    href: 'https://x.com/dinwwwh',
+    href: 'https://x.com/unnoqcom',
   },
   {
     name: 'Github',
-    href: 'https://github.com/dinwwwh',
+    href: 'https://github.com/unnoq',
   },
 ]
 ---
 
 <DefaultLayout>
-  <div class="py-6">
+  <div class="py-12">
     <header class="flex items-center gap-2">
-      <img class="size-6 rounded-md" src="/d-avatar.png" alt="dinwwwh" />
-      <span class="tracking-wide"> dinwwwh </span>
+      <span class="tracking-wide text-[15px]">unnoq</span>
     </header>
 
-    <div class="mt-8">
-      <div>
-        <h1 class="tracking-wide">
-          dinwwwh &middot; <Typewriter id="the-meaning-of-dinwwwh" words={['Định Lê', 'Do It Now, Win With Hustle.']} />
-        </h1>
-      </div>
-
-      <p class="mt-1">
-        Open-source maintainer & Indie hacker 🚀 focuses on
+    <div class="mt-4">
+      <h1>
+        OSS & Indie Hacker 🚀 focuses on
         {
           teaches.map((t, i) => (
             <a href={t.href} class="hover:text-gray-200 transition">
@@ -102,7 +95,7 @@ const links = [
             </a>
           ))
         }
-      </p>
+      </h1>
     </div>
 
     <div class="border-t border-gray-700 border-dashed my-12"></div>

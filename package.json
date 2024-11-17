@@ -1,12 +1,12 @@
 {
-  "name": "@dinwwwh/monorepo",
+  "name": "@unnoq/monorepo",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.10.0",
   "author": {
-    "name": "dinwwwh",
-    "email": "dinwwwh@gmail.com",
-    "url": "https://dinwwwh.com"
+    "name": "unnoq",
+    "email": "contact@unnoq.com",
+    "url": "https://unnoq.com"
   },
   "scripts": {
     "build": "pnpm run -r build",
@@ -25,9 +25,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
-    "@dinwwwh/unplugin": "latest",
     "@eslint-react/eslint-plugin": "latest",
     "@types/node": "latest",
+    "@unnoq/unplugin": "latest",
     "@vitest/coverage-v8": "latest",
     "@vitest/ui": "latest",
     "eslint-plugin-format": "latest",

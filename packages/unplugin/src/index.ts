@@ -1,4 +1,4 @@
-/** dinwwwh */
+/** unnoq */
 
 import { createUnplugin } from 'unplugin'
 import { onSuccessFactory, type OnSuccessOptions } from './plugins/on-success'

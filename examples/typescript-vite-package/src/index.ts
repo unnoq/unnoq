@@ -1,3 +1,3 @@
-/** dinwwwh */
+/** unnoq */
 
-export const author = 'dinwwwh'
+export const author = 'unnoq'

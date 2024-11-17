@@ -1,21 +1,21 @@
 {
-  "name": "@dinwwwh/unplugin",
+  "name": "@unnoq/unplugin",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Utility for bundlers",
   "author": {
-    "name": "dinwwwh",
-    "email": "dinwwwh@gmail.com",
-    "url": "https://dinwwwh.com"
+    "name": "unnoq",
+    "email": "contact@unnoq.com",
+    "url": "https://unnoq.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/dinwwwh/dinwwwh",
+  "homepage": "https://github.com/unnoq/unnoq",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dinwwwh/dinwwwh.git",
+    "url": "https://github.com/unnoq/unnoq.git",
     "directory": "packages/unplugin"
   },
-  "keywords": ["dinwwwh", "dinwwwh-unplugin", "unplugin"],
+  "keywords": ["unnoq", "unnoq-unplugin", "unplugin"],
   "publishConfig": {
     "access": "public"
   },

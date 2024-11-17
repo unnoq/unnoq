@@ -1,4 +1,4 @@
-import unplugin from '@dinwwwh/unplugin'
+import unplugin from '@unnoq/unplugin'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
