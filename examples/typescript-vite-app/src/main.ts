@@ -14,6 +14,6 @@ const PORT = process.env.PORT ? Number.parseInt(process.env.PORT) : 3000
 const HOST = process.env.HOST || '127.0.0.1'
 
 server.listen(PORT, HOST, () => {
-  // eslint-disable-next-line no-console
+  // biome-ignore lint/suspicious/noConsole: <explanation>
   console.log(`Server running at http://${HOST}:${PORT}`)
 })
