@@ -11,17 +11,17 @@
   "scripts": {
     "build": "pnpm run -r build",
     "preview": "pnpm run --parallel preview",
-    "check": "pnpm run -r check && tsc -b",
+    "type:check": "pnpm run -r type:check && tsc -b",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --coverage --ui",
-    "lint": "eslint --max-warnings=0 .",
-    "lint:fix": "eslint --max-warnings=0 . --fix",
-    "sherif": "pnpm dlx sherif",
-    "sherif:fix": "pnpm run sherif --fix",
-    "knip": "pnpm dlx knip --production",
-    "knip:fix": "pnpm run knip --production --fix --allow-remove-files"
+    "lint:check": "eslint --max-warnings=0 .",
+    "lint:fix": "pnpm run lint:check --fix",
+    "sherif:check": "pnpm dlx sherif",
+    "sherif:fix": "pnpm run sherif:check --fix",
+    "knip:check": "pnpm dlx knip --production",
+    "knip:fix": "pnpm run knip:check --fix --allow-remove-files"
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
