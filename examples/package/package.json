@@ -1,5 +1,5 @@
 {
-  "name": "@unnoq/typescript-vite-package",
+  "name": "@unnoq/package-example",
   "type": "module",
   "version": "0.0.0",
   "author": {
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/unnoq/unnoq.git",
-    "directory": "examples/typescript-vite-package"
+    "directory": "examples/package"
   },
   "keywords": ["unnoq"],
   "publishConfig": {
@@ -36,7 +36,8 @@
   },
   "files": ["dist", "src"],
   "scripts": {
-    "build": "UNPLUGIN_ON_SUCCESS='tsc -b --noCheck' vite build",
+    "build": "tsup --clean --sourcemap --entry.index=src/index.ts --format=esm --onSuccess='tsc -b --noCheck'",
+    "build:watch": "pnpm run build --watch",
     "type:check": "tsc -b"
   }
 }

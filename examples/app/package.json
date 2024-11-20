@@ -1,5 +1,5 @@
 {
-  "name": "@unnoq/typescript-vite-app",
+  "name": "@unnoq/app-example",
   "type": "module",
   "version": "0.0.0",
   "author": {
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/unnoq/unnoq.git",
-    "directory": "examples/typescript-vite-app"
+    "directory": "examples/app"
   },
   "keywords": ["unnoq"],
   "publishConfig": {
@@ -21,8 +21,9 @@
   "bin": "./dist/main.js",
   "files": ["dist", "src"],
   "scripts": {
-    "dev": "UNPLUGIN_ON_SUCCESS='node ./dist/main.js' vite build --watch",
-    "build": "vite build",
+    "dev": "tsx --watch ./src/main.ts",
+    "build": "tsup --clean --sourcemap --entry.main=src/main.ts --format=esm",
+    "build:watch": "pnpm run build --watch",
     "preview": "node ./dist/main.js",
     "type:check": "tsc -b"
   },
