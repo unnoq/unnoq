@@ -1,0 +1,30 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - run: pnpm i
+
+      - run: pnpm run lint:fix
+
+      - run: pnpm run type:check
+
+      - run: pnpm run test
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'style: apply lint fixes'

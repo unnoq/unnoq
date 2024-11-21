@@ -4,6 +4,7 @@
 !.npmrc
 !.*.example
 !.vscode/
+!.github/
 
 # Common generated folders
 logs/
