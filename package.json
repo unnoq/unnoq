@@ -21,7 +21,8 @@
     "sherif": "pnpm dlx sherif",
     "sherif:fix": "pnpm run sherif --fix",
     "knip": "pnpm dlx knip --production",
-    "knip:fix": "pnpm run knip --fix --allow-remove-files"
+    "knip:fix": "pnpm run knip --fix --allow-remove-files",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
