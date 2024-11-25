@@ -30,9 +30,17 @@
     "eslint": "latest",
     "eslint-plugin-astro": "latest",
     "eslint-plugin-format": "latest",
+    "lint-staged": "latest",
+    "simple-git-hooks": "latest",
     "tsup": "latest",
     "tsx": "latest",
     "typescript": "latest",
     "vitest": "latest"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --no-warn-ignored --max-warnings=0 --fix"
   }
 }
