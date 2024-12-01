@@ -9,7 +9,9 @@
     "url": "git+https://github.com/unnoq/unnoq.git",
     "directory": "examples/package"
   },
-  "keywords": ["unnoq"],
+  "keywords": [
+    "unnoq"
+  ],
   "publishConfig": {
     "exports": {
       ".": {
@@ -28,9 +30,12 @@
       "types": "./src/*.ts"
     }
   },
-  "files": ["dist", "src"],
+  "files": [
+    "!dist/*.tsbuildinfo",
+    "dist"
+  ],
   "scripts": {
-    "build": "tsup --clean --sourcemap --entry.index=src/index.ts --format=esm --onSuccess='tsc -b --noCheck'",
+    "build": "tsup --clean --entry.index=src/index.ts --format=esm --onSuccess='tsc -b --noCheck'",
     "build:watch": "pnpm run build --watch",
     "type:check": "tsc -b"
   }
