@@ -26,8 +26,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
     "@types/node": "latest",
     "@vitest/coverage-v8": "latest",
     "eslint": "latest",
@@ -40,8 +38,7 @@
     "vitest": "latest"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged",
-    "commit-msg": "pnpm commitlint -e"
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*": "eslint --no-warn-ignored --max-warnings=0 --fix"
