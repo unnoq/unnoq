@@ -1,13 +1,9 @@
 {
   "name": "@unnoq/monorepo",
   "type": "module",
+  "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@9.12.1",
-  "author": {
-    "name": "unnoq",
-    "email": "contact@unnoq.com",
-    "url": "https://unnoq.com"
-  },
   "scripts": {
     "prepare": "simple-git-hooks",
     "build": "pnpm run -r build",

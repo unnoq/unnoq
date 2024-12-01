@@ -2,24 +2,7 @@
   "name": "@unnoq/app-example",
   "type": "module",
   "version": "0.0.0",
-  "author": {
-    "name": "unnoq",
-    "email": "contact@unnoq.com",
-    "url": "https://unnoq.com"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/unnoq/unnoq",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/unnoq/unnoq.git",
-    "directory": "examples/app"
-  },
-  "keywords": ["unnoq"],
-  "publishConfig": {
-    "access": "public"
-  },
-  "bin": "./dist/main.js",
-  "files": ["dist", "src"],
+  "private": true,
   "scripts": {
     "dev": "tsx --watch ./src/main.ts",
     "build": "tsup --clean --sourcemap --entry.main=src/main.ts --format=esm",
