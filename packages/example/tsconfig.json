@@ -8,6 +8,7 @@
   "exclude": [
     "**/*.test.*",
     "**/*.test-d.ts",
+    "**/*.bench.*",
     "**/__tests__/**",
     "**/__mocks__/**",
     "**/__snapshots__/**"
