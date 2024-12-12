@@ -8,7 +8,7 @@
     "build": "tsup --clean --sourcemap --entry.main=src/main.ts --format=esm",
     "build:watch": "pnpm run build --watch",
     "preview": "node ./dist/main.js",
-    "type:check": "tsc -b"
+    "type:check": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "latest"
