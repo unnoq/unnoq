@@ -84,6 +84,8 @@ importers:
 
   packages/example: {}
 
+  packages/server: {}
+
 packages:
 
   '@alloc/quick-lru@5.2.0':
