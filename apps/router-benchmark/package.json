@@ -1,0 +1,18 @@
+{
+  "name": "@unnoq/app-example",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx --watch ./src/main.ts",
+    "build": "tsup --clean --sourcemap --entry.main=src/main.ts --format=esm",
+    "build:watch": "pnpm run build --watch",
+    "preview": "node ./dist/main.js",
+    "type:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "hono": "^4.6.18",
+    "rou3": "^0.5.1"
+  }
+}
