@@ -11,6 +11,6 @@
     "type:check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "latest"
+    "@types/node": "^22.13.1"
   }
 }
