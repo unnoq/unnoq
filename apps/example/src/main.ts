@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/** unnoq */
-
 import { createServer } from 'node:http'
 import process from 'node:process'
 
