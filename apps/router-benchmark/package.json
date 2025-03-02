@@ -3,16 +3,17 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "main": "./dist/main.mjs",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsx --watch ./src/main.ts",
-    "build": "tsup --clean --sourcemap --entry.main=src/main.ts --format=esm",
-    "build:watch": "pnpm run build --watch",
-    "preview": "node ./dist/main.js",
+    "build": "unbuild",
+    "preview": "node ./dist/main.mjs",
     "type:check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "hono": "^4.6.18",
-    "rou3": "^0.5.1"
+    "@types/node": "^22.13.8"
   }
 }

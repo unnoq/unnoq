@@ -15,9 +15,9 @@
   "publishConfig": {
     "exports": {
       ".": {
-        "types": "./dist/src/index.d.ts",
-        "import": "./dist/index.js",
-        "default": "./dist/index.js"
+        "types": "./dist/index.d.mts",
+        "import": "./dist/index.mjs",
+        "default": "./dist/index.mjs"
       }
     }
   },
@@ -25,12 +25,10 @@
     ".": "./src/index.ts"
   },
   "files": [
-    "!**/*.map",
-    "!**/*.tsbuildinfo",
     "dist"
   ],
   "scripts": {
-    "build": "tsup --clean --sourcemap --entry.index=src/index.ts --format=esm --onSuccess='tsc -b --noCheck'",
+    "build": "unbuild",
     "build:watch": "pnpm run build --watch",
     "type:check": "tsc -b"
   }
