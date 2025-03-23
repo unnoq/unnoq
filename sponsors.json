@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Maxie",
+    "login": "MrMaxie",
+    "avatar": "https://avatars.githubusercontent.com/u/3857836?u=5e6b57973d4385d655663ffdd836e487856f2984&v=4",
+    "amount": 10,
+    "link": "https://github.com/MrMaxie",
+    "org": false,
+    "aside": "none",
+    "asideLink": "https://github.com/MrMaxie",
+    "asideLogo": "https://avatars.githubusercontent.com/u/3857836?u=5e6b57973d4385d655663ffdd836e487856f2984&v=4"
+  },
+  {
+    "name": "Stijn Timmer",
+    "login": "Stijn-Timmer",
+    "avatar": "https://avatars.githubusercontent.com/u/100147665?u=14b5ebf810c2c9acf3a358869b3f05ecfcf32641&v=4",
+    "amount": 5,
+    "link": "https://github.com/Stijn-Timmer",
+    "org": false,
+    "aside": "none",
+    "asideLink": "https://github.com/Stijn-Timmer",
+    "asideLogo": "https://avatars.githubusercontent.com/u/100147665?u=14b5ebf810c2c9acf3a358869b3f05ecfcf32641&v=4"
+  }
+]
