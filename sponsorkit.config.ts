@@ -93,6 +93,14 @@ export default defineConfig({
           custom => custom.login.toLocaleLowerCase() === sponsorEntry.sponsor.login.toLocaleLowerCase(),
         )
 
+        const expiredAt = sponsorEntry.expireAt
+          ? new Date(sponsorEntry.expireAt)
+          : sponsorEntry.createdAt
+            ? new Date(new Date(sponsorEntry.createdAt).setMonth(new Date().getMonth() + 1))
+            : undefined
+
+        const isExpired = expiredAt && expiredAt < new Date()
+
         return {
           name: sponsorEntry.sponsor.name,
           login: sponsorEntry.sponsor.login,
@@ -100,8 +108,9 @@ export default defineConfig({
           amount: sponsorEntry.monthlyDollars,
           link: sponsorEntry.sponsor.linkUrl || sponsorEntry.sponsor.websiteUrl,
           org: sponsorEntry.sponsor.type === 'Organization',
-          aside:
-            sponsorEntry.monthlyDollars > PLATINUM_TIER_THRESHOLD
+          aside: isExpired
+            ? 'none'
+            : sponsorEntry.monthlyDollars > PLATINUM_TIER_THRESHOLD
               ? 'aside'
               : sponsorEntry.monthlyDollars > GOLD_TIER_THRESHOLD
                 ? 'aside-small'
@@ -112,7 +121,7 @@ export default defineConfig({
       })
       .sort((a, b) => b.amount - a.amount)
 
-    await fs.writeFile('sponsors.json', JSON.stringify(json, null, 2))
+    await fs.writeFile('sponsors.json', `${JSON.stringify(json, null, 2)}\n`)
   },
 
   outputDir: '.',
