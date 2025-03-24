@@ -2,25 +2,21 @@ import fs from 'node:fs/promises'
 import { defineConfig, tierPresets } from 'sponsorkit'
 
 /**
- * Custom Sponsor Overrides
+ * The list of sponsors to display in the right sidebar.
  *
- * Customize sponsor links and logos for display in the website's right sidebar.
  * You can host logos in the /public directory and reference them via:
- *   https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/<your-logo-name>.svg
- *
- * Example:
- * { login: 'sponsorLogin', asideLink: 'https://custom-link.com', asideLogo: 'https://custom-logo.com' }
+ *   https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/<your-logo>
  *
  * Contributions and PRs are welcome!
  */
-const customSponsorOverrides: CustomSponsorOverrides[] = [
-  // Add your custom sponsor configurations here - PRs are welcome!
+const rightSidebarSponsors: RightSidebarSponsor[] = [
+  // { login: 'sponsorLogin', asideLink: 'https://custom-link.com', asideLogo: 'https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/sponsorLogin.svg' },
 ]
 
 /**
  * Custom override settings for specific sponsors.
  */
-interface CustomSponsorOverrides {
+interface RightSidebarSponsor {
   /**
    * Sponsor's unique login.
    */
@@ -28,19 +24,20 @@ interface CustomSponsorOverrides {
 
   /**
    * Custom URL for the sponsor link displayed in the website's right sidebar.
-   * Defaults to the sponsor's primary link.
+   * @default websiteUrl || linkUrl
    */
-  asideLink?: string
+  rideSidebarLink?: string
 
   /**
    * Custom logo URL for the sponsor in the website's right sidebar.
-   * Defaults to the sponsor's avatar.
+   * @default avatarUrl
    */
-  asideLogo?: string
+  rightSidebarLogo?: string
 }
 
 const GOLD_TIER_THRESHOLD = 100
-const PLATINUM_TIER_THRESHOLD = 500
+const PLATINUM_TIER_THRESHOLD = 200
+const DIAMOND_TIER_THRESHOLD = 500
 
 export default defineConfig({
   tiers: [
@@ -61,12 +58,7 @@ export default defineConfig({
     {
       title: 'Sponsors',
       monthlyDollars: 10,
-      preset: {
-        avatar: { size: 42 },
-        boxWidth: 52,
-        boxHeight: 52,
-        container: { sidePadding: 30 },
-      },
+      preset: tierPresets.base,
     },
     {
       title: 'Silver Sponsors',
@@ -83,13 +75,24 @@ export default defineConfig({
       monthlyDollars: PLATINUM_TIER_THRESHOLD,
       preset: tierPresets.xl,
     },
+    {
+      title: 'Diamond Sponsors',
+      monthlyDollars: DIAMOND_TIER_THRESHOLD,
+      preset: {
+        avatar: { size: 90 * 1.4 },
+        boxWidth: 120 * 1.4,
+        boxHeight: 130 * 1.4,
+        container: { sidePadding: 20 * 1.4 },
+        name: { maxLength: 20 * 1.4 },
+      },
+    },
   ],
 
   async onSponsorsReady(sponsors) {
     const json: JSONSponsor[] = sponsors
       .filter(sponsorEntry => sponsorEntry.privacyLevel !== 'PRIVATE')
       .map((sponsorEntry) => {
-        const override = customSponsorOverrides.find(
+        const rideSidebar = rightSidebarSponsors.find(
           custom => custom.login.toLocaleLowerCase() === sponsorEntry.sponsor.login.toLocaleLowerCase(),
         )
 
@@ -108,15 +111,15 @@ export default defineConfig({
           amount: sponsorEntry.monthlyDollars,
           link: sponsorEntry.sponsor.linkUrl || sponsorEntry.sponsor.websiteUrl,
           org: sponsorEntry.sponsor.type === 'Organization',
-          aside: isExpired
+          rideSidebarSize: isExpired || !rideSidebar
             ? 'none'
-            : sponsorEntry.monthlyDollars > PLATINUM_TIER_THRESHOLD
-              ? 'aside'
+            : sponsorEntry.monthlyDollars > DIAMOND_TIER_THRESHOLD
+              ? 'normal'
               : sponsorEntry.monthlyDollars > GOLD_TIER_THRESHOLD
-                ? 'aside-small'
+                ? 'small'
                 : 'none',
-          asideLink: override?.asideLink || sponsorEntry.sponsor.linkUrl || sponsorEntry.sponsor.websiteUrl,
-          asideLogo: override?.asideLogo || sponsorEntry.sponsor.avatarUrl,
+          rideSidebarLink: rideSidebar?.rideSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
+          rightSidebarLogo: rideSidebar?.rightSidebarLogo || sponsorEntry.sponsor.avatarUrl,
         } satisfies JSONSponsor
       })
       .sort((a, b) => b.amount - a.amount)
@@ -139,7 +142,7 @@ interface JSONSponsor {
   amount: number
   link?: string
   org: boolean
-  aside: 'aside' | 'aside-small' | 'none'
-  asideLink?: string
-  asideLogo: string
+  rideSidebarSize: 'normal' | 'small' | 'none'
+  rideSidebarLink?: string
+  rightSidebarLogo: string
 }
