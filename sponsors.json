@@ -1,5 +1,16 @@
 [
   {
+    "name": "村上さん",
+    "login": "SanMurakami",
+    "avatar": "https://avatars.githubusercontent.com/u/37681609?u=0dd4c7e4ba937cbb52b068c55914b1d8164dc0c7&v=4",
+    "amount": 50,
+    "link": "https://github.com/SanMurakami",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://misskey.io",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/37681609?u=0dd4c7e4ba937cbb52b068c55914b1d8164dc0c7&v=4"
+  },
+  {
     "name": "あわわわとーにゅ",
     "login": "u1-liquid",
     "avatar": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4",
