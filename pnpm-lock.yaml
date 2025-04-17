@@ -93,8 +93,8 @@ importers:
         specifier: ^4.7.6
         version: 4.7.6
       rou3:
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.6.0
+        version: 0.6.0
 
   packages/example: {}
 
@@ -3309,8 +3309,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rou3@0.5.1:
-    resolution: {integrity: sha512-OXMmJ3zRk2xeXFGfA3K+EOPHC5u7RDFG7lIOx0X1pdnhUkI8MdVrbV+sNsD80ElpUZ+MRHdyxPnFthq9VHs8uQ==}
+  rou3@0.6.0:
+    resolution: {integrity: sha512-0gF3uSNVOXvocv7+UEFz/4hKMwPCLDTzWUpIU3XNZjfzekJKiEF9vlpSCG/moJ4IzBqzPl48jomVMUwpiONmuw==}
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -7674,7 +7674,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.34.9
       fsevents: 2.3.3
 
-  rou3@0.5.1: {}
+  rou3@0.6.0: {}
 
   run-parallel@1.2.0:
     dependencies:
