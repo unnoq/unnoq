@@ -117,7 +117,7 @@ export default defineConfig({
           org: sponsorEntry.sponsor.type === 'Organization',
           rideSidebarSize: isExpired || !rideSidebar
             ? 'none'
-            : sponsorEntry.monthlyDollars > GOLD_TIER_THRESHOLD
+            : sponsorEntry.monthlyDollars >= GOLD_TIER_THRESHOLD
               ? 'normal' // TODO: add a tier for diamond sponsors
               : 'none',
           rideSidebarLink: rideSidebar?.rideSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
