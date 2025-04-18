@@ -17,7 +17,7 @@
     "amount": 100,
     "link": "https://github.com/SanMurakami",
     "org": false,
-    "rideSidebarSize": "none",
+    "rideSidebarSize": "normal",
     "rideSidebarLink": "https://misskey.io",
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
