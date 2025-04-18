@@ -10,7 +10,11 @@ import { defineConfig, tierPresets } from 'sponsorkit'
  * Contributions and PRs are welcome!
  */
 const rightSidebarSponsors: RightSidebarSponsor[] = [
-  // { login: 'sponsorLogin', asideLink: 'https://custom-link.com', asideLogo: 'https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/sponsorLogin.svg' },
+  {
+    login: 'SanMurakami',
+    rideSidebarLink: 'https://misskey.io',
+    rightSidebarLogo: 'https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png',
+  },
 ]
 
 /**
@@ -113,11 +117,9 @@ export default defineConfig({
           org: sponsorEntry.sponsor.type === 'Organization',
           rideSidebarSize: isExpired || !rideSidebar
             ? 'none'
-            : sponsorEntry.monthlyDollars > DIAMOND_TIER_THRESHOLD
-              ? 'normal'
-              : sponsorEntry.monthlyDollars > GOLD_TIER_THRESHOLD
-                ? 'small'
-                : 'none',
+            : sponsorEntry.monthlyDollars > GOLD_TIER_THRESHOLD
+              ? 'normal' // TODO: add a tier for diamond sponsors
+              : 'none',
           rideSidebarLink: rideSidebar?.rideSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
           rightSidebarLogo: rideSidebar?.rightSidebarLogo || sponsorEntry.sponsor.avatarUrl,
         } satisfies JSONSponsor
