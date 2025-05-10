@@ -22,17 +22,6 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
-    "name": "motopods",
-    "login": "motopods",
-    "avatar": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4",
-    "amount": 20,
-    "link": "https://github.com/motopods",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/motopods",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4"
-  },
-  {
     "name": "Pascal",
     "login": "herrfugbaum",
     "avatar": "https://avatars.githubusercontent.com/u/12859776?u=644dc1666d0220bc0468eb0de3c56b919f635b16&v=4",
@@ -77,6 +66,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4"
   },
   {
+    "name": "Théo LUDWIG",
+    "login": "theoludwig",
+    "avatar": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4",
+    "amount": 8,
+    "link": "https://github.com/theoludwig",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://theoludwig.fr",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4"
+  },
+  {
     "name": "Francisco Hermida",
     "login": "franciscohermida",
     "avatar": "https://avatars.githubusercontent.com/u/483242?u=bbcbc80eb9d8781ff401f7dafc3b59cd7bea0561&v=4",
@@ -119,6 +119,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://pirsig.net",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=cd27033c1be7653a22dcf9c83e48a1e62e1de1aa&v=4"
+  },
+  {
+    "name": "motopods",
+    "login": "motopods",
+    "avatar": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4",
+    "amount": -1,
+    "link": "https://github.com/motopods",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/motopods",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4"
   },
   {
     "name": "Stijn Timmer",
