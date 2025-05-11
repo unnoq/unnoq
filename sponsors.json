@@ -22,6 +22,17 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
+    "name": "Abhay Ramesh",
+    "login": "abhay-ramesh",
+    "avatar": "https://avatars.githubusercontent.com/u/66196314?u=83a4e5d02bb91abb92942926298671dc0d4d4e5b&v=4",
+    "amount": 20,
+    "link": "https://github.com/abhay-ramesh",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://abhayramesh.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/66196314?u=83a4e5d02bb91abb92942926298671dc0d4d4e5b&v=4"
+  },
+  {
     "name": "Pascal",
     "login": "herrfugbaum",
     "avatar": "https://avatars.githubusercontent.com/u/12859776?u=644dc1666d0220bc0468eb0de3c56b919f635b16&v=4",
