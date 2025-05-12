@@ -11,6 +11,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/85497839?v=4"
   },
   {
+    "name": "Shrink Inc",
+    "login": "shrink-inc",
+    "avatar": "https://avatars.githubusercontent.com/u/139700438?v=4",
+    "amount": 100,
+    "link": "https://github.com/shrink-inc",
+    "org": true,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://shr.ink",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
+  },
+  {
     "name": "村上さん",
     "login": "SanMurakami",
     "avatar": "https://avatars.githubusercontent.com/u/37681609?u=0dd4c7e4ba937cbb52b068c55914b1d8164dc0c7&v=4",
