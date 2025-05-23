@@ -33,6 +33,28 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
+    "name": "Valerii Petryniak",
+    "login": "valerii15298",
+    "avatar": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4",
+    "amount": 20,
+    "link": "https://github.com/valerii15298",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://valerii15298.github.io",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
+  },
+  {
+    "name": "Reece McDonald",
+    "login": "hrmcdonald",
+    "avatar": "https://avatars.githubusercontent.com/u/39349270?v=4",
+    "amount": 20,
+    "link": "https://github.com/hrmcdonald",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/hrmcdonald",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39349270?v=4"
+  },
+  {
     "name": "Abhay Ramesh",
     "login": "abhay-ramesh",
     "avatar": "https://avatars.githubusercontent.com/u/66196314?u=83a4e5d02bb91abb92942926298671dc0d4d4e5b&v=4",
