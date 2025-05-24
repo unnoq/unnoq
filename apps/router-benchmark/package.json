@@ -13,8 +13,8 @@
     "type:check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
-    "hono": "^4.7.6",
-    "rou3": "^0.5.1"
+    "@types/node": "^22.15.21",
+    "hono": "^4.7.10",
+    "rou3": "^0.6.1"
   }
 }
