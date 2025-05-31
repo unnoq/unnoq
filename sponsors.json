@@ -1,5 +1,16 @@
 [
   {
+    "name": "Valerii Petryniak",
+    "login": "valerii15298",
+    "avatar": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4",
+    "amount": 200,
+    "link": "https://github.com/valerii15298",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://valerii15298.github.io",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
+  },
+  {
     "name": "Zuplo",
     "login": "zuplo",
     "avatar": "https://avatars.githubusercontent.com/u/85497839?v=4",
@@ -31,17 +42,6 @@
     "rideSidebarSize": "normal",
     "rideSidebarLink": "https://misskey.io",
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
-  },
-  {
-    "name": "Valerii Petryniak",
-    "login": "valerii15298",
-    "avatar": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4",
-    "amount": 20,
-    "link": "https://github.com/valerii15298",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://valerii15298.github.io",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
   },
   {
     "name": "Reece McDonald",
