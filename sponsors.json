@@ -11,6 +11,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
   },
   {
+    "name": "村上さん",
+    "login": "SanMurakami",
+    "avatar": "https://avatars.githubusercontent.com/u/37681609?u=0dd4c7e4ba937cbb52b068c55914b1d8164dc0c7&v=4",
+    "amount": 200,
+    "link": "https://github.com/SanMurakami",
+    "org": false,
+    "rideSidebarSize": "normal",
+    "rideSidebarLink": "https://misskey.io",
+    "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
+  },
+  {
     "name": "Zuplo",
     "login": "zuplo",
     "avatar": "https://avatars.githubusercontent.com/u/85497839?v=4",
@@ -31,17 +42,6 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://shr.ink",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
-  },
-  {
-    "name": "村上さん",
-    "login": "SanMurakami",
-    "avatar": "https://avatars.githubusercontent.com/u/37681609?u=0dd4c7e4ba937cbb52b068c55914b1d8164dc0c7&v=4",
-    "amount": 100,
-    "link": "https://github.com/SanMurakami",
-    "org": false,
-    "rideSidebarSize": "normal",
-    "rideSidebarLink": "https://misskey.io",
-    "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
     "name": "Reece McDonald",
