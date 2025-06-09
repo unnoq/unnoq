@@ -143,17 +143,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4"
   },
   {
-    "name": "Théo LUDWIG",
-    "login": "theoludwig",
-    "avatar": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4",
-    "amount": 8,
-    "link": "https://github.com/theoludwig",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://theoludwig.fr",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4"
-  },
-  {
     "name": "soonoo",
     "login": "soonoo",
     "avatar": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4",
@@ -218,6 +207,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=cd27033c1be7653a22dcf9c83e48a1e62e1de1aa&v=4"
+  },
+  {
+    "name": "Théo LUDWIG",
+    "login": "theoludwig",
+    "avatar": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4",
+    "amount": -1,
+    "link": "https://github.com/theoludwig",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://theoludwig.fr",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4"
   },
   {
     "name": "Francisco Hermida",
