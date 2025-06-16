@@ -66,17 +66,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/66196314?u=83a4e5d02bb91abb92942926298671dc0d4d4e5b&v=4"
   },
   {
-    "name": "motopods",
-    "login": "motopods",
-    "avatar": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4",
-    "amount": 20,
-    "link": "https://github.com/motopods",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/motopods",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4"
-  },
-  {
     "name": "David Cramer",
     "login": "dcramer",
     "avatar": "https://avatars.githubusercontent.com/u/23610?v=4",
@@ -154,6 +143,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4"
   },
   {
+    "name": "Ryuz",
+    "login": "yzuyr",
+    "avatar": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4",
+    "amount": 5,
+    "link": "https://github.com/yzuyr",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://getgrinta.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4"
+  },
+  {
     "name": "Aidan Sunbury",
     "login": "aidansunbury",
     "avatar": "https://avatars.githubusercontent.com/u/64103161?v=4",
@@ -229,6 +229,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://github.com/franciscohermida",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/483242?u=bbcbc80eb9d8781ff401f7dafc3b59cd7bea0561&v=4"
+  },
+  {
+    "name": "motopods",
+    "login": "motopods",
+    "avatar": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4",
+    "amount": -1,
+    "link": "https://github.com/motopods",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/motopods",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4"
   },
   {
     "name": "Stijn Timmer",
