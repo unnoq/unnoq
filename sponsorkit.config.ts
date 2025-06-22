@@ -39,9 +39,10 @@ interface RightSidebarSponsor {
   rightSidebarLogo?: string
 }
 
-const GOLD_TIER_THRESHOLD = 100
-const PLATINUM_TIER_THRESHOLD = 200
-const DIAMOND_TIER_THRESHOLD = 500
+const BRONZE_TIER_THRESHOLD = 100
+const SILVER_TIER_THRESHOLD = 200
+const GOLD_TIER_THRESHOLD = 500
+const PLATINUM_TIER_THRESHOLD = 1000
 
 export default defineConfig({
   tiers: [
@@ -65,29 +66,40 @@ export default defineConfig({
       preset: tierPresets.base,
     },
     {
-      title: 'Silver Sponsors',
+      title: 'Generous Sponsors',
       monthlyDollars: 50,
       preset: tierPresets.medium,
     },
     {
-      title: 'Gold Sponsors',
-      monthlyDollars: GOLD_TIER_THRESHOLD,
+      title: '🥉 Bronze Sponsor',
+      monthlyDollars: BRONZE_TIER_THRESHOLD,
       preset: tierPresets.large,
     },
     {
-      title: 'Platinum Sponsors',
-      monthlyDollars: PLATINUM_TIER_THRESHOLD,
+      title: '🥈 Silver Sponsor',
+      monthlyDollars: SILVER_TIER_THRESHOLD,
       preset: tierPresets.xl,
     },
     {
-      title: 'Diamond Sponsors',
-      monthlyDollars: DIAMOND_TIER_THRESHOLD,
+      title: '🥇 Gold Sponsor',
+      monthlyDollars: GOLD_TIER_THRESHOLD,
       preset: {
         avatar: { size: 90 * 1.4 },
         boxWidth: 120 * 1.4,
         boxHeight: 130 * 1.4,
         container: { sidePadding: 20 * 1.4 },
         name: { maxLength: 20 * 1.4 },
+      },
+    },
+    {
+      title: '🏆 Platinum Sponsor',
+      monthlyDollars: PLATINUM_TIER_THRESHOLD,
+      preset: {
+        avatar: { size: 90 * 1.6 },
+        boxWidth: 120 * 1.6,
+        boxHeight: 130 * 1.6,
+        container: { sidePadding: 20 * 1.6 },
+        name: { maxLength: 20 * 1.6 },
       },
     },
   ],
@@ -117,8 +129,8 @@ export default defineConfig({
           org: sponsorEntry.sponsor.type === 'Organization',
           rideSidebarSize: isExpired || !rideSidebar
             ? 'none'
-            : sponsorEntry.monthlyDollars >= GOLD_TIER_THRESHOLD
-              ? 'normal' // TODO: add a tier for diamond sponsors
+            : sponsorEntry.monthlyDollars >= BRONZE_TIER_THRESHOLD
+              ? 'normal' // TODO: add a tier for gold sponsors
               : 'none',
           rideSidebarLink: rideSidebar?.rideSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
           rightSidebarLogo: rideSidebar?.rightSidebarLogo || sponsorEntry.sponsor.avatarUrl,
