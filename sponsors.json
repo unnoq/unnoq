@@ -77,6 +77,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/66196314?u=83a4e5d02bb91abb92942926298671dc0d4d4e5b&v=4"
   },
   {
+    "name": "happyboy",
+    "login": "happyboy2022",
+    "avatar": "https://avatars.githubusercontent.com/u/103669586?u=65b49c4b893ed3703909fbb3a7a22313f3f9c121&v=4",
+    "amount": 10,
+    "link": "https://github.com/happyboy2022",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/happyboy2022",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/103669586?u=65b49c4b893ed3703909fbb3a7a22313f3f9c121&v=4"
+  },
+  {
     "name": "David Cramer",
     "login": "dcramer",
     "avatar": "https://avatars.githubusercontent.com/u/23610?v=4",
@@ -143,17 +154,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4"
   },
   {
-    "name": "soonoo",
-    "login": "soonoo",
-    "avatar": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4",
-    "amount": 7,
-    "link": "https://github.com/soonoo",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/soonoo",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4"
-  },
-  {
     "name": "Ryuz",
     "login": "yzuyr",
     "avatar": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4",
@@ -207,6 +207,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "soonoo",
+    "login": "soonoo",
+    "avatar": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4",
+    "amount": -1,
+    "link": "https://github.com/soonoo",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/soonoo",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4"
   },
   {
     "name": "Théo LUDWIG",
