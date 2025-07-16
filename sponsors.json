@@ -154,17 +154,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4"
   },
   {
-    "name": "Ryuz",
-    "login": "yzuyr",
-    "avatar": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4",
-    "amount": 5,
-    "link": "https://github.com/yzuyr",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://getgrinta.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4"
-  },
-  {
     "name": "Aidan Sunbury",
     "login": "aidansunbury",
     "avatar": "https://avatars.githubusercontent.com/u/64103161?v=4",
@@ -207,6 +196,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "Ryuz",
+    "login": "yzuyr",
+    "avatar": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4",
+    "amount": -1,
+    "link": "https://github.com/yzuyr",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://getgrinta.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4"
   },
   {
     "name": "soonoo",
