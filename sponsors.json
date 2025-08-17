@@ -66,17 +66,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39349270?v=4"
   },
   {
-    "name": "yicchi",
-    "login": "YiCChi",
-    "avatar": "https://avatars.githubusercontent.com/u/86967274?u=6c2756f09fe15dd94d572f560e979cd157982852&v=4",
-    "amount": 20,
-    "link": "https://github.com/YiCChi",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/YiCChi",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/86967274?u=6c2756f09fe15dd94d572f560e979cd157982852&v=4"
-  },
-  {
     "name": "Abhay Ramesh",
     "login": "abhay-ramesh",
     "avatar": "https://avatars.githubusercontent.com/u/66196314?u=83a4e5d02bb91abb92942926298671dc0d4d4e5b&v=4",
@@ -262,6 +251,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "yicchi",
+    "login": "YiCChi",
+    "avatar": "https://avatars.githubusercontent.com/u/86967274?u=6c2756f09fe15dd94d572f560e979cd157982852&v=4",
+    "amount": -1,
+    "link": "https://github.com/YiCChi",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/YiCChi",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/86967274?u=6c2756f09fe15dd94d572f560e979cd157982852&v=4"
   },
   {
     "name": null,
