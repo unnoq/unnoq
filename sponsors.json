@@ -231,17 +231,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44748019?u=e0232402c045ad4eac7cbd217f1f47e083103b89&v=4"
   },
   {
-    "name": "rokitg",
-    "login": "rokitgg",
-    "avatar": "https://avatars.githubusercontent.com/u/125133357?u=06c74aefaa2236b06a2e5fba5a5c612339f45912&v=4",
-    "amount": 1,
-    "link": "https://github.com/rokitgg",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/rokitgg",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/125133357?u=06c74aefaa2236b06a2e5fba5a5c612339f45912&v=4"
-  },
-  {
     "name": "Alex",
     "login": "piscis",
     "avatar": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4",
@@ -251,6 +240,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "rokitg",
+    "login": "rokitgg",
+    "avatar": "https://avatars.githubusercontent.com/u/125133357?u=06c74aefaa2236b06a2e5fba5a5c612339f45912&v=4",
+    "amount": -1,
+    "link": "https://github.com/rokitgg",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/rokitgg",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/125133357?u=06c74aefaa2236b06a2e5fba5a5c612339f45912&v=4"
   },
   {
     "name": "yicchi",
