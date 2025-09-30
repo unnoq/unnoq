@@ -165,17 +165,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/82209198?u=1a1d111ab3d589855b9cc8a7fefb1b5c6a4fbbaf&v=4"
   },
   {
-    "name": "CloudyCotton",
-    "login": "cloudycotton",
-    "avatar": "https://avatars.githubusercontent.com/u/168998965?u=9b9634a5aed66a51c1b880663272725b00b92b14&v=4",
-    "amount": 5,
-    "link": "https://github.com/cloudycotton",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://saksham.work",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/168998965?u=9b9634a5aed66a51c1b880663272725b00b92b14&v=4"
-  },
-  {
     "name": "soonoo",
     "login": "soonoo",
     "avatar": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4",
@@ -251,6 +240,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://github.com/rokitgg",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/125133357?u=06c74aefaa2236b06a2e5fba5a5c612339f45912&v=4"
+  },
+  {
+    "name": "CloudyCotton",
+    "login": "cloudycotton",
+    "avatar": "https://avatars.githubusercontent.com/u/168998965?u=9b9634a5aed66a51c1b880663272725b00b92b14&v=4",
+    "amount": -1,
+    "link": "https://github.com/cloudycotton",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://saksham.work",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/168998965?u=9b9634a5aed66a51c1b880663272725b00b92b14&v=4"
   },
   {
     "name": "yicchi",
