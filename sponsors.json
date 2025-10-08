@@ -33,11 +33,11 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
-    "name": "Shrink Inc",
-    "login": "shrink-inc",
+    "name": "shr.ink oü",
+    "login": "shr-ink",
     "avatar": "https://avatars.githubusercontent.com/u/139700438?v=4",
     "amount": 100,
-    "link": "https://github.com/shrink-inc",
+    "link": "https://github.com/shr-ink",
     "org": true,
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://shr.ink",
@@ -152,6 +152,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://github.com/rhinodavid",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4"
+  },
+  {
+    "name": "Denis",
+    "login": "pumpkinlink",
+    "avatar": "https://avatars.githubusercontent.com/u/11864620?u=5f47bbe6c65d0f6f5cf011021490238e4b0593d0&v=4",
+    "amount": 5,
+    "link": "https://github.com/pumpkinlink",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/pumpkinlink",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/11864620?u=5f47bbe6c65d0f6f5cf011021490238e4b0593d0&v=4"
   },
   {
     "name": "Kevin Porten",
