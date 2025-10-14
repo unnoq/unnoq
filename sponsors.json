@@ -66,6 +66,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4"
   },
   {
+    "name": "grim",
+    "login": "ripgrim",
+    "avatar": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4",
+    "amount": 10,
+    "link": "https://github.com/ripgrim",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://ripgrim.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4"
+  },
+  {
     "name": "Valerii Strilets",
     "login": "letstri",
     "avatar": "https://avatars.githubusercontent.com/u/13253748?u=c7b10399ccc8f8081e24db94ec32cd9858e86ac3&v=4",
