@@ -44,6 +44,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
   },
   {
+    "name": "LN Markets",
+    "login": "ln-markets",
+    "avatar": "https://avatars.githubusercontent.com/u/70597625?v=4",
+    "amount": 50,
+    "link": "https://github.com/ln-markets",
+    "org": true,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://lnmarkets.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/70597625?v=4"
+  },
+  {
     "name": "Reece McDonald",
     "login": "hrmcdonald",
     "avatar": "https://avatars.githubusercontent.com/u/39349270?v=4",
@@ -218,6 +229,28 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://github.com/rhinodavid",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4"
+  },
+  {
+    "name": "Tom Ballinger",
+    "login": "thomasballinger",
+    "avatar": "https://avatars.githubusercontent.com/u/458879?u=4b045ac75d721b6ac2b42a74d7d37f61f0414031&v=4",
+    "amount": 5,
+    "link": "https://github.com/thomasballinger",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "http://ballingt.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/458879?u=4b045ac75d721b6ac2b42a74d7d37f61f0414031&v=4"
+  },
+  {
+    "name": "Christopher Kapic",
+    "login": "christopher-kapic",
+    "avatar": "https://avatars.githubusercontent.com/u/59740769?v=4",
+    "amount": 5,
+    "link": "https://github.com/christopher-kapic",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/christopher-kapic",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/59740769?v=4"
   },
   {
     "name": "Denis",
