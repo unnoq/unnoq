@@ -77,6 +77,28 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4"
   },
   {
+    "name": "Ryan Vogel",
+    "login": "R44VC0RP",
+    "avatar": "https://avatars.githubusercontent.com/u/89211796?u=1857347b9787d8d8a7ea5bfc333f96be92d5a683&v=4",
+    "amount": 10,
+    "link": "https://github.com/R44VC0RP",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://theryanvogel.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/89211796?u=1857347b9787d8d8a7ea5bfc333f96be92d5a683&v=4"
+  },
+  {
+    "name": "Andrew Peters",
+    "login": "andrewpeters9",
+    "avatar": "https://avatars.githubusercontent.com/u/36251325?v=4",
+    "amount": 10,
+    "link": "https://github.com/andrewpeters9",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/andrewpeters9",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/36251325?v=4"
+  },
+  {
     "name": "Lê Cao Nguyên",
     "login": "nguyenlc1993",
     "avatar": "https://avatars.githubusercontent.com/u/13871971?u=83c8b69d9e35b589c4e1f066cc113b1d9461386f&v=4",
