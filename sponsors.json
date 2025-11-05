@@ -44,6 +44,17 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
+    "name": "Fabworks",
+    "login": "FabworksHQ",
+    "avatar": "https://avatars.githubusercontent.com/u/160179500?v=4",
+    "amount": 100,
+    "link": "https://github.com/FabworksHQ",
+    "org": true,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://fabworks.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/160179500?v=4"
+  },
+  {
     "name": "shr.ink oü",
     "login": "shr-ink",
     "avatar": "https://avatars.githubusercontent.com/u/139700438?v=4",
