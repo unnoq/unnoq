@@ -176,17 +176,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13253748?u=c7b10399ccc8f8081e24db94ec32cd9858e86ac3&v=4"
   },
   {
-    "name": "Bapusaheb Patil",
-    "login": "bapspatil",
-    "avatar": "https://avatars.githubusercontent.com/u/16699418?v=4",
-    "amount": 10,
-    "link": "https://github.com/bapspatil",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://bapspatil.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/16699418?v=4"
-  },
-  {
     "name": "Yu-Sabo",
     "login": "YuSabo90002",
     "avatar": "https://avatars.githubusercontent.com/u/13120582?v=4",
@@ -427,6 +416,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "Bapusaheb Patil",
+    "login": "bapspatil",
+    "avatar": "https://avatars.githubusercontent.com/u/16699418?v=4",
+    "amount": -1,
+    "link": "https://github.com/bapspatil",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://bapspatil.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/16699418?v=4"
   },
   {
     "name": "Omar Khatib",
