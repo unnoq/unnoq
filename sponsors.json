@@ -154,17 +154,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/18430555?u=3afebeb81de666e35aaac3ed46f14159d7603ffb&v=4"
   },
   {
-    "name": "grim",
-    "login": "ripgrim",
-    "avatar": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4",
-    "amount": 10,
-    "link": "https://github.com/ripgrim",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://ripgrim.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4"
-  },
-  {
     "name": "Valerii Strilets",
     "login": "letstri",
     "avatar": "https://avatars.githubusercontent.com/u/13253748?u=c7b10399ccc8f8081e24db94ec32cd9858e86ac3&v=4",
@@ -416,6 +405,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "grim",
+    "login": "ripgrim",
+    "avatar": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4",
+    "amount": -1,
+    "link": "https://github.com/ripgrim",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://ripgrim.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4"
   },
   {
     "name": "Bapusaheb Patil",
