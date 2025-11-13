@@ -88,17 +88,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39349270?v=4"
   },
   {
-    "name": "Nelson Lai",
-    "login": "nelsonlaidev",
-    "avatar": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4",
-    "amount": 20,
-    "link": "https://github.com/nelsonlaidev",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://nelsonlai.dev",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4"
-  },
-  {
     "name": "Peter Adam",
     "login": "peter-adam-dy",
     "avatar": "https://avatars.githubusercontent.com/u/132129459?u=fef3342c1e498545f861f83fffea2f9e7d284157&v=4",
@@ -405,6 +394,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "Nelson Lai",
+    "login": "nelsonlaidev",
+    "avatar": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4",
+    "amount": -1,
+    "link": "https://github.com/nelsonlaidev",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://nelsonlai.dev",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4"
   },
   {
     "name": "grim",
