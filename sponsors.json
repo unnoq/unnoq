@@ -308,17 +308,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44757637?u=a2fc1ea8f7d827a96721176f79d30592d1c48059&v=4"
   },
   {
-    "name": "Robert Soriano",
-    "login": "wobsoriano",
-    "avatar": "https://avatars.githubusercontent.com/u/13049130?u=6d72104182e7c9ed25934815313fb69107332111&v=4",
-    "amount": 5,
-    "link": "https://github.com/wobsoriano",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://robsoriano.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13049130?u=6d72104182e7c9ed25934815313fb69107332111&v=4"
-  },
-  {
     "name": "Tom Ballinger",
     "login": "thomasballinger",
     "avatar": "https://avatars.githubusercontent.com/u/458879?u=4b045ac75d721b6ac2b42a74d7d37f61f0414031&v=4",
@@ -427,6 +416,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "Robert Soriano",
+    "login": "wobsoriano",
+    "avatar": "https://avatars.githubusercontent.com/u/13049130?u=6d72104182e7c9ed25934815313fb69107332111&v=4",
+    "amount": -1,
+    "link": "https://github.com/wobsoriano",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://robsoriano.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13049130?u=6d72104182e7c9ed25934815313fb69107332111&v=4"
   },
   {
     "name": "Nelson Lai",
