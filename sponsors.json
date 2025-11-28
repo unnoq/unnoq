@@ -264,17 +264,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4"
   },
   {
-    "name": null,
-    "login": "SKostyukovich",
-    "avatar": "https://avatars.githubusercontent.com/u/10700067?v=4",
-    "amount": 8,
-    "link": "https://github.com/SKostyukovich",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/SKostyukovich",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/10700067?v=4"
-  },
-  {
     "name": "David Walsh",
     "login": "rhinodavid",
     "avatar": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4",
@@ -416,6 +405,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": null,
+    "login": "SKostyukovich",
+    "avatar": "https://avatars.githubusercontent.com/u/10700067?v=4",
+    "amount": -1,
+    "link": "https://github.com/SKostyukovich",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/SKostyukovich",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/10700067?v=4"
   },
   {
     "name": "Robert Soriano",
