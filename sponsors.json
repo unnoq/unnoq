@@ -44,17 +44,6 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
-    "name": "Fabworks",
-    "login": "FabworksHQ",
-    "avatar": "https://avatars.githubusercontent.com/u/160179500?v=4",
-    "amount": 100,
-    "link": "https://github.com/FabworksHQ",
-    "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://fabworks.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/160179500?v=4"
-  },
-  {
     "name": "shr.ink oü",
     "login": "shr-ink",
     "avatar": "https://avatars.githubusercontent.com/u/139700438?v=4",
@@ -394,6 +383,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "Fabworks",
+    "login": "FabworksHQ",
+    "avatar": "https://avatars.githubusercontent.com/u/160179500?v=4",
+    "amount": -1,
+    "link": "https://github.com/FabworksHQ",
+    "org": true,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://fabworks.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/160179500?v=4"
   },
   {
     "name": null,
