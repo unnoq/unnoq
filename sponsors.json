@@ -55,17 +55,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
   },
   {
-    "name": "Novak Antonijevic",
-    "login": "NovakAnton",
-    "avatar": "https://avatars.githubusercontent.com/u/157126729?u=ae49fa22292d55c0434ff0ca008206155b18663b&v=4",
-    "amount": 50,
-    "link": "https://github.com/NovakAnton",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/NovakAnton",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/157126729?u=ae49fa22292d55c0434ff0ca008206155b18663b&v=4"
-  },
-  {
     "name": "LN Markets",
     "login": "ln-markets",
     "avatar": "https://avatars.githubusercontent.com/u/70597625?v=4",
@@ -405,6 +394,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+  },
+  {
+    "name": "Novak Antonijevic",
+    "login": "NovakAnton",
+    "avatar": "https://avatars.githubusercontent.com/u/157126729?u=ae49fa22292d55c0434ff0ca008206155b18663b&v=4",
+    "amount": -1,
+    "link": "https://github.com/NovakAnton",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/NovakAnton",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/157126729?u=ae49fa22292d55c0434ff0ca008206155b18663b&v=4"
   },
   {
     "name": "Fabworks",
