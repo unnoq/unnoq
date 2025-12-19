@@ -44,17 +44,6 @@
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png"
   },
   {
-    "name": "shr.ink oü",
-    "login": "shr-ink",
-    "avatar": "https://avatars.githubusercontent.com/u/139700438?v=4",
-    "amount": 100,
-    "link": "https://github.com/shr-ink",
-    "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://shr.ink",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
-  },
-  {
     "name": "LN Markets",
     "login": "ln-markets",
     "avatar": "https://avatars.githubusercontent.com/u/70597625?v=4",
@@ -537,6 +526,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://github.com/yzuyr",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4"
+  },
+  {
+    "name": "shr.ink oü",
+    "login": "shr-ink",
+    "avatar": "https://avatars.githubusercontent.com/u/139700438?v=4",
+    "amount": -1,
+    "link": "https://github.com/shr-ink",
+    "org": true,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://shr.ink",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
   },
   {
     "name": "Abhay Ramesh",
