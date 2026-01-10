@@ -253,6 +253,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4"
   },
   {
+    "name": null,
+    "login": "Titoine",
+    "avatar": "https://avatars.githubusercontent.com/u/3514286?u=1bb1e86b0c99c8a1121372e56d51a177eea12191&v=4",
+    "amount": 5,
+    "link": "https://github.com/Titoine",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://github.com/Titoine",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/3514286?u=1bb1e86b0c99c8a1121372e56d51a177eea12191&v=4"
+  },
+  {
     "name": "Sam",
     "login": "SSam0419",
     "avatar": "https://avatars.githubusercontent.com/u/102863520?u=e1a3a52fc15ec6527481773b140cdc79d4731f32&v=4",
@@ -354,13 +365,13 @@
   {
     "name": "Alex",
     "login": "piscis",
-    "avatar": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4",
+    "avatar": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4",
     "amount": 1,
     "link": "https://github.com/piscis",
     "org": false,
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=bf53ee39eafb4ab12de01d9a27ae68abbdc134cd&v=4"
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4"
   },
   {
     "name": "Novak Antonijevic",
