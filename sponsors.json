@@ -66,6 +66,17 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39349270?v=4"
   },
   {
+    "name": "Illarion Koperski",
+    "login": "illarionvk",
+    "avatar": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4",
+    "amount": 10,
+    "link": "https://github.com/illarionvk",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://illarionvk.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4"
+  },
+  {
     "name": "Chen, Zhi-Yuan",
     "login": "yukimotochern",
     "avatar": "https://avatars.githubusercontent.com/u/20896173?u=945c33fc21725e4d566a0d02afc54b136ca1d67a&v=4",
@@ -240,6 +251,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://github.com/rhinodavid",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4"
+  },
+  {
+    "name": "Igor Makowski",
+    "login": "Mnigos",
+    "avatar": "https://avatars.githubusercontent.com/u/56691628?u=ee8c879478f7c151b9156aef6c74243fa3e247a8&v=4",
+    "amount": 5,
+    "link": "https://github.com/Mnigos",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://ludusengine.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/56691628?u=ee8c879478f7c151b9156aef6c74243fa3e247a8&v=4"
   },
   {
     "name": null,
