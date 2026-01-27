@@ -286,17 +286,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/102863520?u=3c89611f549d5070be232eb4532f690c8f2e7a65&v=4"
   },
   {
-    "name": "Laduni Estu Syalwa",
-    "login": "laduniestu",
-    "avatar": "https://avatars.githubusercontent.com/u/44757637?u=a2fc1ea8f7d827a96721176f79d30592d1c48059&v=4",
-    "amount": 5,
-    "link": "https://github.com/laduniestu",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://dun.gg",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44757637?u=a2fc1ea8f7d827a96721176f79d30592d1c48059&v=4"
-  },
-  {
     "name": "Tom Ballinger",
     "login": "thomasballinger",
     "avatar": "https://avatars.githubusercontent.com/u/458879?u=4b045ac75d721b6ac2b42a74d7d37f61f0414031&v=4",
@@ -383,6 +372,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4"
+  },
+  {
+    "name": "Laduni Estu Syalwa",
+    "login": "laduniestu",
+    "avatar": "https://avatars.githubusercontent.com/u/44757637?u=a2fc1ea8f7d827a96721176f79d30592d1c48059&v=4",
+    "amount": -1,
+    "link": "https://github.com/laduniestu",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://dun.gg",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44757637?u=a2fc1ea8f7d827a96721176f79d30592d1c48059&v=4"
   },
   {
     "name": "Novak Antonijevic",
