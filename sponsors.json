@@ -77,17 +77,6 @@
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39172778?u=5ed913c31d57e7221b75784abcad48c7ebddde27&v=4"
   },
   {
-    "name": "Illarion Koperski",
-    "login": "illarionvk",
-    "avatar": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4",
-    "amount": 10,
-    "link": "https://github.com/illarionvk",
-    "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://illarionvk.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4"
-  },
-  {
     "name": "Chen, Zhi-Yuan",
     "login": "yukimotochern",
     "avatar": "https://avatars.githubusercontent.com/u/20896173?u=945c33fc21725e4d566a0d02afc54b136ca1d67a&v=4",
@@ -394,6 +383,17 @@
     "rideSidebarSize": "none",
     "rideSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4"
+  },
+  {
+    "name": "Illarion Koperski",
+    "login": "illarionvk",
+    "avatar": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4",
+    "amount": -1,
+    "link": "https://github.com/illarionvk",
+    "org": false,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://illarionvk.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4"
   },
   {
     "name": "Laduni Estu Syalwa",
