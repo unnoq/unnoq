@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config'
 // https://astro.build/config
 export default defineConfig({
   srcDir: '.',
-  site: 'https://unnoq.com',
+  site: 'https://dinwwwh.com',
   integrations: [
     tailwind({
       applyBaseStyles: false,
