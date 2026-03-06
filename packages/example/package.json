@@ -1,16 +1,16 @@
 {
-  "name": "@unnoq/package-example",
+  "name": "@dinwwwh/package-example",
   "type": "module",
   "version": "0.0.0",
   "license": "MIT",
-  "homepage": "https://unnoq.com",
+  "homepage": "https://dinwwwh.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unnoq/unnoq.git",
+    "url": "git+https://github.com/dinwwwh/dinwwwh.git",
     "directory": "packages/example"
   },
   "keywords": [
-    "unnoq"
+    "dinwwwh"
   ],
   "publishConfig": {
     "exports": {

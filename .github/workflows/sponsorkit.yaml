@@ -20,7 +20,7 @@ jobs:
       - run: pnpm run sponsorkit
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
-          SPONSORKIT_GITHUB_LOGIN: unnoq
+          SPONSORKIT_GITHUB_LOGIN: dinwwwh
 
       - uses: EndBug/add-and-commit@v9
         with:

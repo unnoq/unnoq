@@ -5,7 +5,7 @@ import { defineConfig, tierPresets } from 'sponsorkit'
  * The list of sponsors to display in the right sidebar.
  *
  * You can host logos in the /public directory and reference them via:
- *   https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/<your-logo>
+ *   https://cdn.jsdelivr.net/gh/dinwwwh/dinwwwh/public/<your-logo>
  *
  * Contributions and PRs are welcome!
  */
@@ -13,7 +13,7 @@ const rightSidebarSponsors: RightSidebarSponsor[] = [
   {
     login: 'SanMurakami',
     rideSidebarLink: 'https://misskey.io',
-    rightSidebarLogo: 'https://cdn.jsdelivr.net/gh/unnoq/unnoq/public/MisskeyHQ_TextLogo.png',
+    rightSidebarLogo: 'https://cdn.jsdelivr.net/gh/dinwwwh/dinwwwh/public/MisskeyHQ_TextLogo.png',
   },
 ]
 
