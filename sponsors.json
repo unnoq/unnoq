@@ -1,5 +1,16 @@
 [
   {
+    "name": "ScreenshotOne.com",
+    "login": "screenshotone",
+    "avatar": "https://avatars.githubusercontent.com/u/97035603?v=4",
+    "amount": 1000,
+    "link": "https://github.com/screenshotone",
+    "org": true,
+    "rideSidebarSize": "none",
+    "rideSidebarLink": "https://screenshotone.com",
+    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/97035603?v=4"
+  },
+  {
     "name": "Zuplo",
     "login": "zuplo",
     "avatar": "https://avatars.githubusercontent.com/u/85497839?v=4",
