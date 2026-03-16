@@ -113,13 +113,13 @@ export default defineConfig({
     const json: JSONSponsor[] = sponsors
       .filter(sponsorEntry => sponsorEntry.privacyLevel !== 'PRIVATE')
       .map((sponsorEntry) => {
-        const rideSidebar = rightSidebarSponsors.find(
+        const rightSidebar = rightSidebarSponsors.find(
           custom => custom.login.toLocaleLowerCase() === sponsorEntry.sponsor.login.toLocaleLowerCase(),
         )
 
         const expiredAt = sponsorEntry.expireAt
           ? new Date(sponsorEntry.expireAt)
-          : sponsorEntry.createdAt
+          : sponsorEntry.isOneTime && sponsorEntry.createdAt
             ? new Date(new Date(sponsorEntry.createdAt).setMonth(new Date().getMonth() + 1))
             : undefined
 
@@ -132,13 +132,13 @@ export default defineConfig({
           amount: sponsorEntry.monthlyDollars,
           link: sponsorEntry.sponsor.linkUrl || sponsorEntry.sponsor.websiteUrl,
           org: sponsorEntry.sponsor.type === 'Organization',
-          rightSidebarSize: isExpired || !rideSidebar
+          rightSidebarSize: isExpired || !rightSidebar
             ? 'none'
             : sponsorEntry.monthlyDollars >= BRONZE_TIER_THRESHOLD
               ? 'normal' // TODO: add a tier for gold sponsors
               : 'none',
-          rightSidebarLink: rideSidebar?.rightSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
-          rightSidebarLogo: rideSidebar?.rightSidebarLogo || sponsorEntry.sponsor.avatarUrl,
+          rightSidebarLink: rightSidebar?.rightSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
+          rightSidebarLogo: rightSidebar?.rightSidebarLogo || sponsorEntry.sponsor.avatarUrl,
         } satisfies JSONSponsor
       })
       .sort((a, b) => b.amount - a.amount)

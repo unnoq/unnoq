@@ -6,9 +6,9 @@
     "amount": 1000,
     "link": "https://github.com/screenshotone",
     "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://screenshotone.com",
-    "rightSidebarLogo": "https://avatars.githubusercontent.com/u/97035603?v=4"
+    "rightSidebarSize": "normal",
+    "rightSidebarLink": "https://screenshotone.com?ref=orpc",
+    "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/dinwwwh/dinwwwh/public/ScreenshotOne_TextLogo.svg"
   },
   {
     "name": "Zuplo",
@@ -17,8 +17,8 @@
     "amount": 500,
     "link": "https://github.com/zuplo",
     "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://zuplo.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://zuplo.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/85497839?v=4"
   },
   {
@@ -28,8 +28,8 @@
     "amount": 200,
     "link": "https://github.com/christ12938",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/christ12938",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/christ12938",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/25758598?v=4"
   },
   {
@@ -39,8 +39,8 @@
     "amount": 200,
     "link": "https://github.com/valerii15298",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://valerii15298.github.io",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://valerii15298.github.io",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44531564?u=88ac74d9bacd20401518441907acad21063cd397&v=4"
   },
   {
@@ -50,8 +50,8 @@
     "amount": 200,
     "link": "https://github.com/SanMurakami",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://misskey.io",
+    "rightSidebarSize": "normal",
+    "rightSidebarLink": "https://misskey.io?ref=orpc",
     "rightSidebarLogo": "https://cdn.jsdelivr.net/gh/dinwwwh/dinwwwh/public/MisskeyHQ_TextLogo.png"
   },
   {
@@ -61,8 +61,8 @@
     "amount": 50,
     "link": "https://github.com/ln-markets",
     "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://lnmarkets.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://lnmarkets.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/70597625?v=4"
   },
   {
@@ -72,8 +72,8 @@
     "amount": 25,
     "link": "https://github.com/hrmcdonald",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/hrmcdonald",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/hrmcdonald",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39349270?v=4"
   },
   {
@@ -83,8 +83,8 @@
     "amount": 20,
     "link": "https://github.com/Scrumplex",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://scrumplex.net",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://scrumplex.net",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/11587657?u=ab503582165c0bbff0cca47ce31c9450bb1553c9&v=4"
   },
   {
@@ -94,8 +94,8 @@
     "amount": 10,
     "link": "https://github.com/Ryanjso",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/Ryanjso",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/Ryanjso",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/39172778?u=5ed913c31d57e7221b75784abcad48c7ebddde27&v=4"
   },
   {
@@ -105,8 +105,8 @@
     "amount": 10,
     "link": "https://github.com/yukimotochern",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/yukimotochern",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/yukimotochern",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/20896173?u=945c33fc21725e4d566a0d02afc54b136ca1d67a&v=4"
   },
   {
@@ -116,8 +116,8 @@
     "amount": 10,
     "link": "https://github.com/peter-adam-dy",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://peter-adam.de",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://peter-adam.de",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/132129459?u=4f3dbbb3b443990b56acb7d6a5d11ed2c555f6db&v=4"
   },
   {
@@ -127,8 +127,8 @@
     "amount": 10,
     "link": "https://github.com/R44VC0RP",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://ryan.ceo",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://ryan.ceo",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/89211796?u=1857347b9787d8d8a7ea5bfc333f96be92d5a683&v=4"
   },
   {
@@ -138,8 +138,8 @@
     "amount": 10,
     "link": "https://github.com/andrewpeters9",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/andrewpeters9",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/andrewpeters9",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/36251325?v=4"
   },
   {
@@ -149,8 +149,8 @@
     "amount": 10,
     "link": "https://github.com/K-Mistele",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://blacklight.sh",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://blacklight.sh",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/18430555?u=3afebeb81de666e35aaac3ed46f14159d7603ffb&v=4"
   },
   {
@@ -160,8 +160,8 @@
     "amount": 10,
     "link": "https://github.com/letstri",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://letstri.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://letstri.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13253748?u=c7b10399ccc8f8081e24db94ec32cd9858e86ac3&v=4"
   },
   {
@@ -171,8 +171,8 @@
     "amount": 10,
     "link": "https://github.com/happyboy2022",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/happyboy2022",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/happyboy2022",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/103669586?u=65b49c4b893ed3703909fbb3a7a22313f3f9c121&v=4"
   },
   {
@@ -182,8 +182,8 @@
     "amount": 10,
     "link": "https://github.com/dcramer",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://cra.mr",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://cra.mr",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/23610?v=4"
   },
   {
@@ -193,8 +193,8 @@
     "amount": 10,
     "link": "https://github.com/ryota-murakami",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://laststance.io",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://laststance.io",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5501268?u=599389e03340734325726ca3f8f423c021d47d7f&v=4"
   },
   {
@@ -204,8 +204,8 @@
     "amount": 10,
     "link": "https://github.com/herrfugbaum",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/herrfugbaum",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/herrfugbaum",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/12859776?u=644dc1666d0220bc0468eb0de3c56b919f635b16&v=4"
   },
   {
@@ -215,8 +215,8 @@
     "amount": 10,
     "link": "https://github.com/divmgl",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/divmgl",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/divmgl",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5452298?u=645993204be8696c085ecf0d228c3062efe2ed65&v=4"
   },
   {
@@ -226,8 +226,8 @@
     "amount": 10,
     "link": "https://github.com/supastarter",
     "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://supastarter.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://supastarter.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/110960143?v=4"
   },
   {
@@ -237,8 +237,8 @@
     "amount": 10,
     "link": "https://github.com/nicognaW",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/nicognaW",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/nicognaW",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/66731869?u=4699bda3a9092d3ec34fbd959450767bcc8b8b6d&v=4"
   },
   {
@@ -248,8 +248,8 @@
     "amount": 10,
     "link": "https://github.com/u1-liquid",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://soymilk.party",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://soymilk.party",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/17376330?u=de3353804be889f009f7e0a1582daf04d0ab292d&v=4"
   },
   {
@@ -259,8 +259,8 @@
     "amount": 8,
     "link": "https://github.com/rhinodavid",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/rhinodavid",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/rhinodavid",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5778036?u=b5521f07d2f88c3db2a0dae62b5f2f8357214af0&v=4"
   },
   {
@@ -270,8 +270,8 @@
     "amount": 5,
     "link": "https://github.com/steelbrain",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://aneesiqbal.ai",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://aneesiqbal.ai",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/4278113?u=22b80b5399eed68ac76cd58b02961b0481f1db11&v=4"
   },
   {
@@ -281,8 +281,8 @@
     "amount": 5,
     "link": "https://github.com/Mnigos",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://rigtch.fm",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://rigtch.fm",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/56691628?u=ee8c879478f7c151b9156aef6c74243fa3e247a8&v=4"
   },
   {
@@ -292,8 +292,8 @@
     "amount": 5,
     "link": "https://github.com/Titoine",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/Titoine",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/Titoine",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/3514286?u=1bb1e86b0c99c8a1121372e56d51a177eea12191&v=4"
   },
   {
@@ -303,8 +303,8 @@
     "amount": 5,
     "link": "https://github.com/SSam0419",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://lee-sam.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://lee-sam.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/102863520?u=3c89611f549d5070be232eb4532f690c8f2e7a65&v=4"
   },
   {
@@ -314,8 +314,8 @@
     "amount": 5,
     "link": "https://github.com/thomasballinger",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "http://ballingt.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "http://ballingt.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/458879?u=4b045ac75d721b6ac2b42a74d7d37f61f0414031&v=4"
   },
   {
@@ -325,8 +325,8 @@
     "amount": 5,
     "link": "https://github.com/christopher-kapic",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/christopher-kapic",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/christopher-kapic",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/59740769?v=4"
   },
   {
@@ -336,8 +336,8 @@
     "amount": 5,
     "link": "https://github.com/pumpkinlink",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/pumpkinlink",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/pumpkinlink",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/11864620?u=5f47bbe6c65d0f6f5cf011021490238e4b0593d0&v=4"
   },
   {
@@ -347,8 +347,8 @@
     "amount": 5,
     "link": "https://github.com/kporten",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://kevinporten.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://kevinporten.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/1839345?u=dc2263d5cfe0d927ce1a0be04a1d55dd6b55405c&v=4"
   },
   {
@@ -358,8 +358,8 @@
     "amount": 5,
     "link": "https://github.com/soonoo",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/soonoo",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/soonoo",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5436405?u=5d0b4aa955c87e30e6bda7f0cccae5402da99528&v=4"
   },
   {
@@ -369,8 +369,8 @@
     "amount": 5,
     "link": "https://github.com/aidansunbury",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/aidansunbury",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/aidansunbury",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/64103161?v=4"
   },
   {
@@ -380,8 +380,8 @@
     "amount": 5,
     "link": "https://github.com/Robbe95",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://robbevaes.be",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://robbevaes.be",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44748019?u=e0232402c045ad4eac7cbd217f1f47e083103b89&v=4"
   },
   {
@@ -391,8 +391,8 @@
     "amount": 1,
     "link": "https://github.com/piscis",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://piscis.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://piscis.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/326163?u=b245f368bd940cf51d08c0b6bf55f8257f359437&v=4"
   },
   {
@@ -402,8 +402,8 @@
     "amount": -1,
     "link": "https://github.com/illarionvk",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://illarionvk.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://illarionvk.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/5012724?u=7cfa13652f7ac5fb3c56d880e3eb3fbe40c3ea34&v=4"
   },
   {
@@ -413,8 +413,8 @@
     "amount": -1,
     "link": "https://github.com/laduniestu",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://dun.gg",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://dun.gg",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/44757637?u=a2fc1ea8f7d827a96721176f79d30592d1c48059&v=4"
   },
   {
@@ -424,8 +424,8 @@
     "amount": -1,
     "link": "https://github.com/NovakAnton",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/NovakAnton",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/NovakAnton",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/157126729?u=ae49fa22292d55c0434ff0ca008206155b18663b&v=4"
   },
   {
@@ -435,8 +435,8 @@
     "amount": -1,
     "link": "https://github.com/FabworksHQ",
     "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://fabworks.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://fabworks.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/160179500?v=4"
   },
   {
@@ -446,8 +446,8 @@
     "amount": -1,
     "link": "https://github.com/SKostyukovich",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/SKostyukovich",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/SKostyukovich",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/10700067?v=4"
   },
   {
@@ -457,8 +457,8 @@
     "amount": -1,
     "link": "https://github.com/wobsoriano",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://robsoriano.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://robsoriano.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13049130?u=6d72104182e7c9ed25934815313fb69107332111&v=4"
   },
   {
@@ -468,8 +468,8 @@
     "amount": -1,
     "link": "https://github.com/nguyenlc1993",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/nguyenlc1993",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/nguyenlc1993",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13871971?u=83c8b69d9e35b589c4e1f066cc113b1d9461386f&v=4"
   },
   {
@@ -479,8 +479,8 @@
     "amount": -1,
     "link": "https://github.com/nelsonlaidev",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://nelsonlai.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://nelsonlai.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75498339?u=2fc0e0b95dd184c5ffb744df977cb15a18b60672&v=4"
   },
   {
@@ -490,8 +490,8 @@
     "amount": -1,
     "link": "https://github.com/ripgrim",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://ripgrim.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://ripgrim.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/75869731?u=b17c42ec2309552fdb822a86b25a2f99146a4d72&v=4"
   },
   {
@@ -501,8 +501,8 @@
     "amount": -1,
     "link": "https://github.com/bapspatil",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://bapspatil.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://bapspatil.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/16699418?v=4"
   },
   {
@@ -512,8 +512,8 @@
     "amount": -1,
     "link": "https://github.com/YuSabo90002",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/YuSabo90002",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/YuSabo90002",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/13120582?v=4"
   },
   {
@@ -523,8 +523,8 @@
     "amount": -1,
     "link": "https://github.com/omarkhatibgg",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "http://khatib.gg",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "http://khatib.gg",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/9054278?u=afbba7331b85c51b8eee4130f5fd31b1017dc919&v=4"
   },
   {
@@ -534,8 +534,8 @@
     "amount": -1,
     "link": "https://github.com/rokitgg",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/rokitgg",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/rokitgg",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/125133357?u=06c74aefaa2236b06a2e5fba5a5c612339f45912&v=4"
   },
   {
@@ -545,8 +545,8 @@
     "amount": -1,
     "link": "https://github.com/hrynevychroman",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://hrynevych.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://hrynevych.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/82209198?u=1a1d111ab3d589855b9cc8a7fefb1b5c6a4fbbaf&v=4"
   },
   {
@@ -556,8 +556,8 @@
     "amount": -1,
     "link": "https://github.com/cloudycotton",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://saksham.work",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://saksham.work",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/168998965?u=9b9634a5aed66a51c1b880663272725b00b92b14&v=4"
   },
   {
@@ -567,8 +567,8 @@
     "amount": -1,
     "link": "https://github.com/YiCChi",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/YiCChi",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/YiCChi",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/86967274?u=6c2756f09fe15dd94d572f560e979cd157982852&v=4"
   },
   {
@@ -578,8 +578,8 @@
     "amount": -1,
     "link": "https://github.com/yzuyr",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/yzuyr",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/yzuyr",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/196539378?u=d38374588d219b6748b16406982f6559411466d4&v=4"
   },
   {
@@ -589,8 +589,8 @@
     "amount": -1,
     "link": "https://github.com/johngerome",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://0x4e32.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://0x4e32.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/2002000?u=24e8dd943cfc862aa284d858a023532c75071ade&v=4"
   },
   {
@@ -600,8 +600,8 @@
     "amount": -1,
     "link": "https://github.com/shr-ink",
     "org": true,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://shr.ink",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://shr.ink",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/139700438?v=4"
   },
   {
@@ -611,8 +611,8 @@
     "amount": -1,
     "link": "https://github.com/abhay-ramesh",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://abhayramesh.com",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://abhayramesh.com",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/66196314?u=c5c2b0327b26606c2efcfaf17046ab18c3d25c57&v=4"
   },
   {
@@ -622,8 +622,8 @@
     "amount": -1,
     "link": "https://github.com/theoludwig",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://theoludwig.fr",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://theoludwig.fr",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/25207499?u=a6a9653725a2f574c07893748806668e0598cdbe&v=4"
   },
   {
@@ -633,8 +633,8 @@
     "amount": -1,
     "link": "https://github.com/franciscohermida",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/franciscohermida",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/franciscohermida",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/483242?u=bbcbc80eb9d8781ff401f7dafc3b59cd7bea0561&v=4"
   },
   {
@@ -644,8 +644,8 @@
     "amount": -1,
     "link": "https://github.com/motopods",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/motopods",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/motopods",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/58200641?u=18833983d65b481ae90a4adec2373064ec58bcf3&v=4"
   },
   {
@@ -655,8 +655,8 @@
     "amount": -1,
     "link": "https://github.com/Stijn-Timmer",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://github.com/Stijn-Timmer",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://github.com/Stijn-Timmer",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/100147665?u=106b2c18e9c98a61861b4ee7fc100f5b9906a6c9&v=4"
   },
   {
@@ -666,8 +666,8 @@
     "amount": -1,
     "link": "https://github.com/MrMaxie",
     "org": false,
-    "rideSidebarSize": "none",
-    "rideSidebarLink": "https://maxie.dev",
+    "rightSidebarSize": "none",
+    "rightSidebarLink": "https://maxie.dev",
     "rightSidebarLogo": "https://avatars.githubusercontent.com/u/3857836?u=5e6b57973d4385d655663ffdd836e487856f2984&v=4"
   }
 ]
