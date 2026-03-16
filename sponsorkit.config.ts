@@ -11,8 +11,13 @@ import { defineConfig, tierPresets } from 'sponsorkit'
  */
 const rightSidebarSponsors: RightSidebarSponsor[] = [
   {
+    login: 'screenshotone',
+    rightSidebarLink: 'https://screenshotone.com?ref=orpc',
+    rightSidebarLogo: 'https://cdn.jsdelivr.net/gh/dinwwwh/dinwwwh/public/ScreenshotOne_TextLogo.svg',
+  },
+  {
     login: 'SanMurakami',
-    rideSidebarLink: 'https://misskey.io',
+    rightSidebarLink: 'https://misskey.io?ref=orpc',
     rightSidebarLogo: 'https://cdn.jsdelivr.net/gh/dinwwwh/dinwwwh/public/MisskeyHQ_TextLogo.png',
   },
 ]
@@ -30,7 +35,7 @@ interface RightSidebarSponsor {
    * Custom URL for the sponsor link displayed in the website's right sidebar.
    * @default websiteUrl || linkUrl
    */
-  rideSidebarLink?: string
+  rightSidebarLink?: string
 
   /**
    * Custom logo URL for the sponsor in the website's right sidebar.
@@ -127,12 +132,12 @@ export default defineConfig({
           amount: sponsorEntry.monthlyDollars,
           link: sponsorEntry.sponsor.linkUrl || sponsorEntry.sponsor.websiteUrl,
           org: sponsorEntry.sponsor.type === 'Organization',
-          rideSidebarSize: isExpired || !rideSidebar
+          rightSidebarSize: isExpired || !rideSidebar
             ? 'none'
             : sponsorEntry.monthlyDollars >= BRONZE_TIER_THRESHOLD
               ? 'normal' // TODO: add a tier for gold sponsors
               : 'none',
-          rideSidebarLink: rideSidebar?.rideSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
+          rightSidebarLink: rideSidebar?.rightSidebarLink || sponsorEntry.sponsor.websiteUrl || sponsorEntry.sponsor.linkUrl,
           rightSidebarLogo: rideSidebar?.rightSidebarLogo || sponsorEntry.sponsor.avatarUrl,
         } satisfies JSONSponsor
       })
@@ -156,7 +161,7 @@ interface JSONSponsor {
   amount: number
   link?: string
   org: boolean
-  rideSidebarSize: 'normal' | 'small' | 'none'
-  rideSidebarLink?: string
+  rightSidebarSize: 'normal' | 'small' | 'none'
+  rightSidebarLink?: string
   rightSidebarLogo: string
 }
