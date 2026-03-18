@@ -18,8 +18,7 @@
     "sherif": "pnpm dlx sherif",
     "sherif:fix": "pnpm run sherif --fix",
     "knip": "pnpm dlx knip --production",
-    "knip:fix": "pnpm run knip --fix --allow-remove-files",
-    "sponsorkit": "sponsorkit"
+    "knip:fix": "pnpm run knip --fix --allow-remove-files"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.12.0",
@@ -29,7 +28,6 @@
     "eslint-plugin-format": "^1.0.1",
     "lint-staged": "^16.0.0",
     "simple-git-hooks": "^2.12.1",
-    "sponsorkit": "^16.4.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
